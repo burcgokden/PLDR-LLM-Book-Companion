@@ -1,0 +1,32 @@
+{
+  "public_commit": "a87ccc1949e57d20640ec425ab24138401641aa6",
+  "task": "soc110m5/truthfulqa_mc2",
+  "differences": [
+    {
+      "field": "/mc2_mean_gap",
+      "stored": -8.451783515829934e-10,
+      "rederived": -8.451783515829956e-10,
+      "absolute_difference": 2.1713491079516976e-24
+    },
+    {
+      "field": "/per_item_metric_absdiff/mean",
+      "stored": 6.6601522483707366e-09,
+      "rederived": 6.660152248370739e-09,
+      "absolute_difference": 2.481541837659083e-24
+    },
+    {
+      "field": "/per_item_metric_signed/mean",
+      "stored": -8.451783515829934e-10,
+      "rederived": -8.451783515829956e-10,
+      "absolute_difference": 2.1713491079516976e-24
+    }
+  ],
+  "scope": "The first failing summary in exact-JSON assertion; not every later field.",
+  "schema": "pldr-public-audit-first-failure-v1",
+  "status": "retained failure; not rerun for this release",
+  "passed_tests": 124,
+  "failed_tests": 1,
+  "original_log_sha256": "2570fce140762ce74dce460eec226feaffb6f63d02bd72e74e2246995e72bde5",
+  "source_record_sha256": "3d7cd964d0091cb59e27177d9614fdd2f2e0f81768f013e1695e4d765c828c20",
+  "support": "Book Companion numerical comparison remains the supported route; no upstream repair or change of scientific inputs."
+}

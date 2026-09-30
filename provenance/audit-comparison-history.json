@@ -1,0 +1,10 @@
+{
+  "schema": "pldr-book-audit-comparison-v1",
+  "imported_test": "TestShippedArtifacts.test_rederive_all_summaries",
+  "imported_policy": "Exact JSON serialization equality",
+  "observed_exact_numeric_differences": 7,
+  "max_absolute_difference": 2.2248379150818266e-18,
+  "current_policy": "Registered quantity-specific operation budgets plus exact inputs, discrete structure and decisions",
+  "retained_raw_and_summary_files_unchanged": true,
+  "policy": "docs/AUDIT.md"
+}

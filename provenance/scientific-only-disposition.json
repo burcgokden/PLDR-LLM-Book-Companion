@@ -1,0 +1,68 @@
+{
+  "removed_publication_only": [
+    "vendor/row/scripts/check_frefs.py",
+    "vendor/row/experiments/analysis/make_table.py"
+  ],
+  "adapted": [
+    {
+      "path": "vendor/row/experiments/analysis/make_figures_w8.py",
+      "removed_definitions": [
+        "_macro",
+        "write_macros"
+      ]
+    },
+    {
+      "path": "vendor/row/experiments/analysis/make_reanalysis.py",
+      "removed_definitions": [
+        "write_macros"
+      ]
+    },
+    {
+      "path": "vendor/row/experiments/analysis/make_reanalysis_w81.py",
+      "removed_definitions": [
+        "write_macros"
+      ]
+    },
+    {
+      "path": "vendor/row/scripts/check_mixed_collapse_results.py",
+      "removed_definitions": [
+        "_verify_manuscript_binding"
+      ]
+    }
+  ],
+  "scope": "Removed TeX-only reference checks and rendering; numerical reducers and experiment plotting remain.",
+  "adaptations": [
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/make_figures_w8.py",
+      "change": "Removed TeX macro emitters; retained numerical analyses and scientific plots."
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/make_reanalysis.py",
+      "change": "Removed TeX macro emitters; retained numerical analyses and scientific plots."
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/make_reanalysis_w81.py",
+      "change": "Removed TeX macro emitters; retained numerical analyses and scientific plots."
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/avalanche_explore.py",
+      "change": "The entrypoint prints JSON numerical summaries instead of a TeX table."
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/check_mixed_collapse_results.py",
+      "change": "Removed manuscript-source binding; retained scientific validation."
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/check_equal_time_outcomes.py",
+      "change": "Removed rendered-document inspection; optional rendered input is explicitly rejected."
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/verify_projection_compact.py",
+      "change": "Removed manuscript TeX count inspection; retained numerical checks."
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/matched_clock_coverage.py",
+      "change": "Removed rendered-document inspection; optional generated input is explicitly rejected."
+    }
+  ]
+}

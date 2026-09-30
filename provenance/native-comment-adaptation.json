@@ -1,0 +1,25 @@
+{
+  "schema": "pldr-native-comment-adaptation-v1",
+  "scope": "Comment-only entrywise-positivity correction; identical Python ASTs excluding locations. A new exact byte identity for newly prepared protocols, with no numerical or runtime change.",
+  "historical_source": "provenance/native-source-history/modeling_pldrllm-66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d.py",
+  "historical_source_sha256": "66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d",
+  "current_sources": [
+    {
+      "path": "companions/dynamics/vendor/native/PLDR-LLM-v51-SOC-110M-1/modeling_pldrllm.py",
+      "previous_sha256": "66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d",
+      "current_sha256": "34b65af6b73a384fca547b7000e61cbb995e537246e196ea4d9e803fd92031c2",
+      "ast_sha256": "a4035afd0d75d33ea32acc04be3eb0c5e31e2ac548ab7e9d24b520a05fd240fc",
+      "ast_equal": true
+    },
+    {
+      "path": "companions/dynamics/vendor/native/PLDR-LLM-v51-SOC-110M-2/modeling_pldrllm.py",
+      "previous_sha256": "66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d",
+      "current_sha256": "34b65af6b73a384fca547b7000e61cbb995e537246e196ea4d9e803fd92031c2",
+      "ast_sha256": "a4035afd0d75d33ea32acc04be3eb0c5e31e2ac548ab7e9d24b520a05fd240fc",
+      "ast_equal": true
+    }
+  ],
+  "registration": "companions/dynamics/vendor/model/src/model_rg/native_state_schema.py",
+  "upstream_inventory": "companions/dynamics/vendor/native/pinned-assets.json",
+  "historical_policy": "The preserved source and upstream inventories retain their original meaning. Historical protocols and acquisition records are not rewritten. The current admission route accepts only the registered current source; retaining an old file does not admit it as a new acquisition."
+}

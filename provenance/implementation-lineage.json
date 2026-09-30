@@ -1,0 +1,23 @@
+{
+  "schema": "pldr-book-initializer-lineage-v1",
+  "paths_relative_to": "companions/dynamics",
+  "files": {
+    "vendor/row/experiments/power_law_attention_layer_v510.py": "4ce3d619192c51106cf545c71619d128d917af421f6f08cd356801136c6ce3b4",
+    "vendor/row/experiments/train_run.py": "5cb8379482786c015d3a13114884b2ef16bcabd22d43f773267ec576dd2eb3a4",
+    "vendor/native/PLDR-LLM-v51-SOC-110M-1/modeling_pldrllm.py": "34b65af6b73a384fca547b7000e61cbb995e537246e196ea4d9e803fd92031c2",
+    "vendor/model/src/model_rg/variance_family.py": "c9f4a5b4140138de670a26fccf104e3d656ccc2187570f0bc6a41f3dacf77cbf",
+    "vendor/model/scripts/run_critical_onepass.py": "1615fedb8529635a6a6d7cd4a36efbcf6e67c0817a00295342d46801dc4683ee",
+    "vendor/model/src/model_rg/run_outcome.py": "5c716dc418ca2c494f7b4932c6fa64f0eedceb1e28fc4ebf555f4db10c9f57f2",
+    "vendor/native/PLDR-LLM-v51-SOC-110M-2/modeling_pldrllm.py": "34b65af6b73a384fca547b7000e61cbb995e537246e196ea4d9e803fd92031c2"
+  },
+  "native_assets": "companions/dynamics/vendor/native/pinned-assets.json",
+  "lineages": {
+    "legacy": "PLGA normal; block-position CE and configured value clipping",
+    "native_port": "PLGA uniform; objective and clipping supplied by producer",
+    "normalized_onepass": "shape-aware normalized uniform; external final target CE; global norm clip 1"
+  },
+  "historical_native_sources": {
+    "provenance/native-source-history/modeling_pldrllm-66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d.py": "66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d"
+  },
+  "native_adaptation": "provenance/native-comment-adaptation.json"
+}

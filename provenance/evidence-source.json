@@ -1,0 +1,8 @@
+{
+  "schema": "pldr-book-evidence-source-v1",
+  "url": "https://huggingface.co/datasets/fromthesky/pldr-llm-training-dynamics-data",
+  "commit": "7dc34168e14dc92f65fb05a46fc028b66a198d70",
+  "manifest_sha256": "d6ec13e61839a0562ade63259f46b49a4edec39521eafd305ae91fe9aacf0395",
+  "payload_sha256": "1e775eb382aabffb093488183a0f3fda97016564a3bc0b738605a25e7486bbe1",
+  "scope": "Unchanged compact numerical records; additional raw inputs remain separately admitted."
+}

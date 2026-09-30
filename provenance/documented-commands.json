@@ -1,0 +1,152 @@
+{
+  "schema": "pldr-documented-commands-v1",
+  "commands": [
+    {
+      "id": "row-scientific",
+      "cwd": "companions/dynamics",
+      "argv": [
+        "python3",
+        "-B",
+        "scripts/run_scientific_checks.py",
+        "--family",
+        "row"
+      ],
+      "entry_point_index": 2,
+      "documents": [
+        "companions/dynamics/docs/RESOURCE_EXECUTION.md"
+      ],
+      "placeholders": [],
+      "safe_help": true
+    },
+    {
+      "id": "all-scientific",
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "-B",
+        "scripts/check.py",
+        "scientific"
+      ],
+      "entry_point_index": 2,
+      "documents": [
+        "companions/dynamics/docs/RESOURCE_EXECUTION.md",
+        "docs/EXECUTION.md"
+      ],
+      "placeholders": [],
+      "safe_help": true
+    },
+    {
+      "id": "cache-reconstruction",
+      "cwd": "companions/dynamics",
+      "argv": [
+        "sh",
+        "vendor/model/scripts/workspace-wrappers/analyze-cache-state-transfer.sh",
+        "RAW-STUDY",
+        "FRESH-OUTPUT",
+        "INPUT-LOCATIONS.json"
+      ],
+      "entry_point_index": 1,
+      "documents": [
+        "docs/EXECUTION.md",
+        "companions/dynamics/docs/EXECUTION.md"
+      ],
+      "placeholders": [
+        "RAW-STUDY",
+        "FRESH-OUTPUT",
+        "INPUT-LOCATIONS.json"
+      ],
+      "safe_help": false
+    },
+    {
+      "id": "cache-relocation",
+      "cwd": "companions/dynamics",
+      "argv": [
+        "python3",
+        "scripts/check_cache_relocation.py",
+        "--source-study",
+        "RAW-STUDY",
+        "--workspace",
+        "FRESH-WORKSPACE"
+      ],
+      "entry_point_index": 1,
+      "documents": [
+        "docs/EXECUTION.md",
+        "companions/dynamics/docs/EXECUTION.md"
+      ],
+      "placeholders": [
+        "RAW-STUDY",
+        "FRESH-WORKSPACE"
+      ],
+      "safe_help": true
+    },
+    {
+      "id": "release-integrity",
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "-B",
+        "scripts/check.py",
+        "integrity"
+      ],
+      "entry_point_index": 2,
+      "documents": [
+        "docs/EXECUTION.md"
+      ],
+      "placeholders": [],
+      "safe_help": true
+    },
+    {
+      "id": "formal-check",
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "-B",
+        "scripts/check.py",
+        "lean",
+        "--dependency-cache",
+        "CACHE",
+        "--lean",
+        "LEAN",
+        "--jobs",
+        "4"
+      ],
+      "entry_point_index": 2,
+      "documents": [
+        "docs/EXECUTION.md"
+      ],
+      "placeholders": [
+        "CACHE",
+        "LEAN"
+      ],
+      "safe_help": true
+    },
+    {
+      "id": "campaign-budget",
+      "cwd": "companions/dynamics",
+      "argv": [
+        "python3",
+        "scripts/check_campaign_budget.py"
+      ],
+      "entry_point_index": 1,
+      "documents": [
+        "companions/dynamics/docs/RESOURCE_EXECUTION.md"
+      ],
+      "placeholders": [],
+      "safe_help": false
+    },
+    {
+      "id": "resource-execution",
+      "cwd": "companions/dynamics",
+      "argv": [
+        "python3",
+        "scripts/check_resource_execution.py"
+      ],
+      "entry_point_index": 1,
+      "documents": [
+        "companions/dynamics/docs/RESOURCE_EXECUTION.md"
+      ],
+      "placeholders": [],
+      "safe_help": false
+    }
+  ]
+}

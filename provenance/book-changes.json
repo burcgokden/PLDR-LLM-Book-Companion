@@ -1,0 +1,234 @@
+{
+  "schema": "pldr-book-changes-v1",
+  "changes": [
+    {
+      "path": "companions/dynamics/PldrTrainingDynamics.lean",
+      "imported_sha256": "34c15d5a1c10af91492e26695f863f7096f37447cb41494556d659d699c6a677",
+      "current_sha256": "e14d9600bc1d93d4c11292de55c3060653ae6c0fc202a12c4d1509e3164830fa",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/docs/EXECUTION.md",
+      "imported_sha256": "e61e7a140848597831e37a7a280f8039d6e8f552455da6ad34b5a550cb2db554",
+      "current_sha256": "d635695ca8b0507b612e7d90b2a53b70ddaedb8ef338ba455629a50846d1bb7e",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/docs/RESOURCE_EXECUTION.md",
+      "imported_sha256": "68ed48a0b464307f7c0c18048d8e246dd2a1834ff360b525c1d01307317a3096",
+      "current_sha256": "e51a5eccc319cab0dfef49c73e7d483a11b09a4715952ee6335aefc748c5569d",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/provenance/campaign-accounting.json",
+      "imported_sha256": "2be3e7f2818b643652fa0ada0f0566899c33d9c091c30a0f7a46b436d9c21bdf",
+      "current_sha256": "df6a88026323247d96007b15e417f045f79791331b6c54b884c37b10841ff435",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/provenance/supported-programs.json",
+      "imported_sha256": "d52112e6f768a2210ae77d831dba479d3cd3e516b90ee13f27bcce68e2fa9320",
+      "current_sha256": "8dc7f61ff895f2ddae6efc92e3e0a1c0ee0f30a9d851238ff20837af88b24c5b",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/scientific-manifest.json",
+      "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
+      "current_sha256": "1687fc9da79e7e229c2c34787bc230571d0aabf48c9a21986591567f79deaa5c",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/cache_state_contract.py",
+      "imported_sha256": "01181ebe1ef5b47e7d809311e42efbfff32ba529a02d68e3a7eda9b403c3acf4",
+      "current_sha256": "db2ba67dd808b95c57bdefcf40037086421814342db1a1c99360d400a4e2aead",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/check_equal_time_outcomes.py",
+      "imported_sha256": "8ea3c0411c4cff99e8fd00d5d231a38801eef28a4adf2c6682ee2e3bb5ac8c01",
+      "current_sha256": "9f75cc49a9761a7cfbe49102dac9188fdbbc280692ac4ed09b9620ba18cac48d",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/matched_clock_coverage.py",
+      "imported_sha256": "a1a67a97cf01d5e3583786d0bce6783870c30c4b6c736e0dc6f3e084ca4c04a0",
+      "current_sha256": "93ae923ad4b91c67aec10d3eaf37c134267688a1ed390b67de836c2d42429d4a",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/prepare_critical_clock_family.py",
+      "imported_sha256": "d2d4d5aa057a45b51ccd24bca7d8900d03b0b9b4c341f6a9dbbdc59ffa6e472f",
+      "current_sha256": "912ec9101d32107cf13182f5611f07035b78edb71f7a3eaf0c3ce067a41ebbed",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/prepare_critical_refinement.py",
+      "imported_sha256": "edb9c901008f3e3090b8e46ddcd389b51de7eef166c4f678c46b822a99f87245",
+      "current_sha256": "bfd2450449b1ae0bb5e1cef618697abbee5289d584c80122cd8aa86456b13e07",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/run_critical_onepass.py",
+      "imported_sha256": "2d39c3422b9188eaeb54622f3cb7cb9fd01a9b686fed021d431bb64d92fc2d00",
+      "current_sha256": "7b9d85c9c0669bf21892194748472f5475876bb91faf48c5e699600bf1f66ba8",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/run_critical_shared_paths.py",
+      "imported_sha256": "dc74f2a250d50d0251655feffcaf9d4b242a117a57a4c2fa97b991d2231fd008",
+      "current_sha256": "533b461c54c5dc6d18af68396940c0d24367b22e06e84bd3e031c61542023c53",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/scripts/verify_projection_compact.py",
+      "imported_sha256": "d79bdb593be10f2cd7fcf01bad05a9cab66c3730573945e5a2131a5b669dff08",
+      "current_sha256": "50c3bff4bc39dd0d599e3a2b6b5d1aaca42ccb8565ebf220d7f7b0b21fd3c8ed",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/src/model_rg/criticality.py",
+      "imported_sha256": "eb14cef4185c5c707d6f1e95c2018cd9d0334e108e52b0a44c7170cd2597d4ed",
+      "current_sha256": "7c3f459226d1b2f83a46e637b0adf05b9534dbf88c6895b323b8fdc231868099",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/model/tests/test_native_outcomes.py",
+      "imported_sha256": "34c5014d3c41bbc6a0f8c604bcd13108c1d620685f8e0873dd241fca73359ab8",
+      "current_sha256": "298ed77dea311d13148a42580c99698c4fc20f7e0044e274b889f15381afc7c3",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/native/PLDR-LLM-v51-SOC-110M-1/modeling_pldrllm.py",
+      "imported_sha256": "66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d",
+      "current_sha256": "34b65af6b73a384fca547b7000e61cbb995e537246e196ea4d9e803fd92031c2",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/native/PLDR-LLM-v51-SOC-110M-2/modeling_pldrllm.py",
+      "imported_sha256": "66984a1a7fddcb12b010a865a9a630f1b8525c9b03610a8cb14ac1fe0527eb8d",
+      "current_sha256": "34b65af6b73a384fca547b7000e61cbb995e537246e196ea4d9e803fd92031c2",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/avalanche_explore.py",
+      "imported_sha256": "fc4af4a0efaf25ae9831f18d0c5c3ef05abba72af076eb1f93bd9aa2841596d1",
+      "current_sha256": "8a6479ee04f82ac3d2b5505e70764269bd3a54f2afc7ed067009dea7101d9581",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/make_figures_w8.py",
+      "imported_sha256": "49d6eb22f846193c3df639910d34259b8604fe05e88e1711f5f0bd8597d2ab20",
+      "current_sha256": "21d61e0302d382d6ddc4eb6202f4d1541f18efdaf2c540716d986fef94522d60",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/make_reanalysis.py",
+      "imported_sha256": "2da1fddcf5e03a9c6150c19e9af12f4f777c02807e626e8939e5d36bc477c01e",
+      "current_sha256": "e63cfb1524eb2aba46d16cf3f4d9d8a0c4a65b36052e2aed2d7ec8118c6da75f",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/make_reanalysis_w81.py",
+      "imported_sha256": "6b69261cdfa49fd2c2ade05fa902dbc1194eaf010dee3b89891642ac4908a1a0",
+      "current_sha256": "27ee3d074f49d23c7d51fb62e70c61de31f62292c047939e40253dea36eccfe9",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/analysis/make_table.py",
+      "imported_sha256": "97694a383088f566f20e6c43f0bd92e60d29797221e634236dae66bdcb555165",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/tests/test_resource_executor.py",
+      "imported_sha256": "db9aa12c796d9ad6219300489f0f6d9d52ed25ec614b0e18ca9cbdb68194b282",
+      "current_sha256": "9001c91d24ad9a39858cec351241275da51f6bb5aa1eb39a1a78bf681e76f7c9",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/check_frefs.py",
+      "imported_sha256": "c72fed7257e5fecac9d219698dcf5e2e950f74ac64f8ef4d520ddc05073f7f66",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/check_mixed_collapse_results.py",
+      "imported_sha256": "43110129f5be495025b0b4fc9c2e51dd532642fb9e62ccc2971b9c857c11c15c",
+      "current_sha256": "84c41a0240d25c27604f41bc4c29db87becb64895e77cb475c9949e61fdcd8f2",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/PldrLlmMathFoundations.lean",
+      "imported_sha256": "b0853e24d0f52b8b07307157099038873f4bb9b8392a019ee0c6e69b8eb6cdf5",
+      "current_sha256": "e026ab11a61dd1c48b5d904d76d42234ac6c4d088bc3b15d7ee23b6863cfabde",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/PldrLlmMathFoundations/DagLoss.lean",
+      "imported_sha256": "4b7929a43cd053e231bc498476fc9248ace2921dbe6e468d6fba741f1744da86",
+      "current_sha256": "427adcc97402bad1ab99893fc2a1c9588a700cddc18f6fe75d6fdb2e8bf5033d",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/PldrLlmMathFoundations/HadamardPower.lean",
+      "imported_sha256": "a187be56f6bc0c3654ad163aee599e220e98197564d0c00505714732c6a65186",
+      "current_sha256": "5e9edca7b64b5fc80e6622d1337be9ede683efc48e96c856ce4c5c1d3f6534bf",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/PldrLlmMathFoundations/InferenceCollapse.lean",
+      "imported_sha256": "90bf74bafe6a39eb277b555eea26bc3bc54ddf39d8776c80d57f27cccc4cc184",
+      "current_sha256": "8d90db1c3869ef2ac3c4ad14a7656a8e8c56ddfb50326308fe081e5f1dcd08d7",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/PldrLlmMathFoundations/LayerNorm.lean",
+      "imported_sha256": "1730e0040e24a1be03c5f872b775ef06097853104f846e2ed6f67ec35ed8c799",
+      "current_sha256": "931885d272492fbc9a4451c76fb13cfb5861e8f20533de19734d53e73e2a9ffe",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/PldrLlmMathFoundations/RankOne.lean",
+      "imported_sha256": "1987ed29eac1a9fbb3f99b5c31d6be33f2f1ca8352d18965ade9619fb90d5d32",
+      "current_sha256": "d61f866ac1474235e110c63b7dbdf8066d5e8b4c3bd7b835279527d125d43ae5",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/PldrLlmMathFoundations/TwirlBound.lean",
+      "imported_sha256": "b30db7f919bc5be4fa38657a5e25a79a7222214e1e6183af4bc4353dd5949c26",
+      "current_sha256": "42e2a6fe2de46e251813ddc3fcabf4e6851b212965d444346133473773811a4a",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/README.md",
+      "imported_sha256": "1aa66b815327a4557dfaf022c85b201bcb2d5bbdbbdf2239408c2227ec160549",
+      "current_sha256": "165feee6cb6b341f71930154111382cdda30427d09110cfcef4cf563823cd38f",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/audit/README.md",
+      "imported_sha256": "2ac60e806802905127a6ddaba885a4878b08c3fb710cd68c85ed234b23edeaaa",
+      "current_sha256": "baa2e7f2dec72c1745b14ea932c8498a135009b2af40e8f12ab744a48b73df30",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/audit/audit_lib.py",
+      "imported_sha256": "032cf35bb706aada5bba382e00464b2eaf4288231c16817ede11e6cacce43a80",
+      "current_sha256": "d1bf0765572ca779690bcc97776ee927dc2a4985d9807332ef9fd45718a709e4",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/audit/test_audit.py",
+      "imported_sha256": "47b0f7b23471e6528d750d89421807e8209b4f1db01c0ecede861b8a282b4b62",
+      "current_sha256": "810f37008536a48ee10617305dd61ac2ff7b0ae33e4229b750b2143a95eb136e",
+      "status": "modified"
+    },
+    {
+      "path": "companions/foundations/audit/test_audit_seq.py",
+      "imported_sha256": "52e2307a73b62f8c43c7457c5a031b4b2d826e1436fef14daedf9b6fdb4c6cdd",
+      "current_sha256": "0c8283305ffe883720674cda2f4d1c1577ff4deeac8c4f047442d8f8723c1f0e",
+      "status": "modified"
+    }
+  ],
+  "scope": "Intentional included-code edits; immutable import record retained."
+}

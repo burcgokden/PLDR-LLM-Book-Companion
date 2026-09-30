@@ -1,0 +1,7 @@
+.lake/
+build/
+validation/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

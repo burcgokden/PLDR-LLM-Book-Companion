@@ -1,0 +1,27 @@
+name = "PldrLlmBookCompanion"
+defaultTargets = ["PldrLlmMathFoundations", "PldrTrainingDynamics", "PldrLlmCurvatureSandpile", "RowRGMap", "ModelRG"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "9c0c555bde5a8277cd36dc4dc6dfe2a5a77a2b11"
+
+[[lean_lib]]
+name = "PldrLlmMathFoundations"
+srcDir = "companions/foundations"
+
+[[lean_lib]]
+name = "PldrTrainingDynamics"
+srcDir = "companions/dynamics"
+
+[[lean_lib]]
+name = "PldrLlmCurvatureSandpile"
+srcDir = "companions/dynamics/vendor/row"
+
+[[lean_lib]]
+name = "RowRGMap"
+srcDir = "companions/dynamics/vendor/rg"
+
+[[lean_lib]]
+name = "ModelRG"
+srcDir = "companions/dynamics/vendor/model"
