@@ -147,6 +147,29 @@
       ],
       "placeholders": [],
       "safe_help": false
+    },
+    {
+      "id": "source-monograph-pdf",
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "companions/dynamics/scripts/check_published_pdf.py",
+        "--pdf",
+        "PDF",
+        "--data-repo",
+        "DATA-REPO",
+        "--output",
+        "validation/monograph-pdf.json"
+      ],
+      "entry_point_index": 1,
+      "documents": [
+        "docs/FORMAL.md"
+      ],
+      "placeholders": [
+        "PDF",
+        "DATA-REPO"
+      ],
+      "safe_help": true
     }
   ]
 }

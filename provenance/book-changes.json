@@ -8,6 +8,12 @@
       "status": "modified"
     },
     {
+      "path": "companions/dynamics/docs/CHAPTERS.md",
+      "imported_sha256": "eb98a771d723e4b13904c86f4b44e5236bcec8f8feb3eedfb507a0121bdf608e",
+      "current_sha256": "ceeb377c4cbd2cde9fddddb1af0693ed29097260cf0d6cfa7a5fbdc0fb510efe",
+      "status": "modified"
+    },
+    {
       "path": "companions/dynamics/docs/EXECUTION.md",
       "imported_sha256": "e61e7a140848597831e37a7a280f8039d6e8f552455da6ad34b5a550cb2db554",
       "current_sha256": "d635695ca8b0507b612e7d90b2a53b70ddaedb8ef338ba455629a50846d1bb7e",
@@ -26,15 +32,33 @@
       "status": "modified"
     },
     {
+      "path": "companions/dynamics/provenance/statement-manifest.json",
+      "imported_sha256": "21186c8d3eab66f61b1b5e277a87795c7c6125193f73e470c818b224a4d1bfe3",
+      "current_sha256": "86a730ad9c6c40574a4e2a1fe62e62ce64d3113cce14f84a0c865a39aa798983",
+      "status": "modified"
+    },
+    {
       "path": "companions/dynamics/provenance/supported-programs.json",
       "imported_sha256": "d52112e6f768a2210ae77d831dba479d3cd3e516b90ee13f27bcce68e2fa9320",
       "current_sha256": "8dc7f61ff895f2ddae6efc92e3e0a1c0ee0f30a9d851238ff20837af88b24c5b",
       "status": "modified"
     },
     {
+      "path": "companions/dynamics/requirements-checks.txt",
+      "imported_sha256": "19eec436485790855837788355b90c1f59df302c01865c448ecc40f98d401336",
+      "current_sha256": "e528805244c46a3794e87e6aff95e605da4c221d5ee706c6a0aa40a8cb89bee9",
+      "status": "modified"
+    },
+    {
       "path": "companions/dynamics/scientific-manifest.json",
       "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
-      "current_sha256": "1687fc9da79e7e229c2c34787bc230571d0aabf48c9a21986591567f79deaa5c",
+      "current_sha256": "98e3e66e2fef639cef012d505fc5787ed9828b9d443e051aa988196f4e5e3018",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/scripts/check_formal_manifest.py",
+      "imported_sha256": "99c241616bc5f1c1f8173ab535ed8aeaac8937d348bfbaa9fad7874e56360c80",
+      "current_sha256": "dda97f7040c1dff3951a286a8e01a82a74637756056566996a729e58771888e7",
       "status": "modified"
     },
     {

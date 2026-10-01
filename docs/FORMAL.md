@@ -11,6 +11,18 @@ no new formal theorem. The complete included source mappings remain in
 `companions/foundations/README.md`. Their source-work numbers are provenance;
 book labels and compiled numbering belong to the book-owned map.
 
+For navigation in the source monograph, the included Dynamics manifest also
+records `published_anchor` and `published_pdf_page` bound to the exact arXiv
+v1 PDF. The original-build anchor metadata remains available for provenance.
+These fields identify source-monograph statements; the book-owned map keeps
+its own statement identities. See the included
+[publication guide](../companions/dynamics/docs/CHAPTERS.md#published-pdf-destinations)
+for PDF acquisition and the optional parser dependency. From this repository root:
+
+```sh
+python3 companions/dynamics/scripts/check_published_pdf.py --pdf PDF --data-repo DATA-REPO --output validation/monograph-pdf.json
+```
+
 `RankOne.lean` assumes identical rows and checks finite real matrix algebra;
 it does not assert that every trained model reaches that configuration.
 `rowClone_mulVec` gives the action on an arbitrary vector.
