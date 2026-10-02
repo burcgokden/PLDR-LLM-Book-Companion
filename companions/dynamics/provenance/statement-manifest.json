@@ -4247,7 +4247,7 @@
         "model:prop:equivariant-cache"
       ],
       "module": "vendor/model/ModelRG/CacheRisk.lean",
-      "remaining_written_obligations": "Only the named kernels/clauses are checked. The manuscript correspondence table states the remaining analytic, probabilistic and empirical obligations.",
+      "remaining_written_obligations": "Native network and optimizer equivariance, decoder-error propagation, and categorical bounds (including the one-quarter Euclidean KL estimate) have standalone written arguments. The scalar cache-sign identity does not formalize these analytic clauses.",
       "source_sha256": "f5239d54f0f8ed24899ed93eb1b912c89d1ccbc9d48cdab8de9853970916d3ff",
       "status": "partial",
       "type_sha256": "f595d89462cdc68f84c346367dd27ff0f491f03b3b717417b8f081b415f0dde4"

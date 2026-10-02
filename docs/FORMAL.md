@@ -105,7 +105,14 @@ statement, binary64 rounding, cancellation and implementation error are
 outside these declarations. Strict positivity of A_P does not give it the
 same entry floor as A_LM under arbitrary learned exponents.
 
-The categorical KL Hessian argument is also a written proof. The book's
-one-half estimate is conservative; the one-quarter Euclidean bound follows
-from the Hessian norm at most one-half and the integral remainder. Existing
-softmax normalization and common-shift declarations do not verify that bound.
+Proposition 18.22 (`model:prop:operator-approximation`), on operator dispersion
+and predictive approximation, states a conservative one-half Euclidean KL
+estimate and explains its sharpening. Proposition 10.8
+(`prop:row-predictive-bridge`), on the geometric-to-predictive error budget,
+and Proposition 23.5 (`model:prop:equivariant-cache`), on cache equivariance
+and decoder error, give the one-quarter bound. These analytic estimates have
+standalone written Hessian and integral-remainder proofs. The softmax
+normalization and common-shift declarations do not formalize those bounds.
+The scalar cache-sign identity checked for Proposition 23.5 does not establish
+its decoder-error or categorical estimates. Each proposition retains its own
+propagation hypotheses and input domains.

@@ -1,0 +1,1020 @@
+{
+  "schema": "pldr-book-figure-index-v1",
+  "book_title": "Power Law Graph Attention and PLDR-LLMs: Mathematical Foundations, Training Dynamics, and Predictive Inference",
+  "book_pdf_sha256": "4818769230927af63e9226c9f5410142d5c795fea95d07ff5eaa5080cd1ff30c",
+  "book_pdf_pages": 729,
+  "figure_count": 78,
+  "scope": "Book-order navigation for the theory diagrams and scientific observations. Topics are caption openings, not complete claims; the book captions and methods retain all conditioning and limitations. Repeated graphic keys identify separate appearances, not additional experiments or independent replications.",
+  "navigation": {
+    "chapters": "docs/CHAPTERS.md",
+    "research": "docs/RESEARCH_INTEGRATION.md",
+    "execution": "docs/EXECUTION.md",
+    "formal_coverage": "docs/FORMAL.md",
+    "evidence_identity": "provenance/evidence-source.json",
+    "study_registry": "companions/dynamics/vendor/model/docs/study-registry.json",
+    "model_claims": "companions/dynamics/vendor/model/docs/claim-index.json",
+    "model_execution_routes": "companions/dynamics/vendor/model/docs/RELEASE_INDEX.json"
+  },
+  "figures": [
+    {
+      "figure_number": "0.1",
+      "book_page": "xiii",
+      "book_pdf_page": 13,
+      "topic": "The architectural computation and two conditional reductions.",
+      "book_labels": [
+        "fig:integrated-research-route"
+      ],
+      "graphic_keys": [],
+      "kind": "schematic"
+    },
+    {
+      "figure_number": "1.1",
+      "book_page": "6",
+      "book_pdf_page": 25,
+      "topic": "The complete law always has a chronological composition.",
+      "book_labels": [
+        "fig:law-diagram"
+      ],
+      "graphic_keys": [],
+      "kind": "schematic"
+    },
+    {
+      "figure_number": "3.1",
+      "book_page": "29",
+      "book_pdf_page": 48,
+      "topic": "Information flow in one PLGA head.",
+      "book_labels": [
+        "foundation:fig:infoflow"
+      ],
+      "graphic_keys": [],
+      "kind": "schematic"
+    },
+    {
+      "figure_number": "16.1",
+      "book_page": "156",
+      "book_pdf_page": 175,
+      "topic": "Dependencies of the conditional theory.",
+      "book_labels": [
+        "model:fig:conditional-dependencies"
+      ],
+      "graphic_keys": [],
+      "kind": "schematic"
+    },
+    {
+      "figure_number": "19.1",
+      "book_page": "204",
+      "book_pdf_page": 223,
+      "topic": "Frozen time predictions and complete independent crossing profiles.",
+      "book_labels": [
+        "model:fig:main-training-selection"
+      ],
+      "graphic_keys": [
+        "critical-refinement-detail-crossings"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.1",
+      "book_page": "227",
+      "book_pdf_page": 246,
+      "topic": "The complete compact single-pass family.",
+      "book_labels": [
+        "model:fig:onepass-compact-trajectories"
+      ],
+      "graphic_keys": [
+        "onepass-compact-trajectories"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.2",
+      "book_page": "234",
+      "book_pdf_page": 253,
+      "topic": "The complete matched source-recipe comparison.",
+      "book_labels": [
+        "model:fig:onepass-source-comparison"
+      ],
+      "graphic_keys": [
+        "onepass-source-comparison"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.3",
+      "book_page": "246",
+      "book_pdf_page": 265,
+      "topic": "Potential activity, its learning-rate-normalized version and base-contribution fraction in the complete early-path family.",
+      "book_labels": [
+        "model:fig:potential-activity"
+      ],
+      "graphic_keys": [
+        "potential_activity"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.4",
+      "book_page": "248",
+      "book_pdf_page": 267,
+      "topic": "Complete primary excursion-size survival curves.",
+      "book_labels": [
+        "model:fig:potential-excursions"
+      ],
+      "graphic_keys": [
+        "potential_excursions"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.5",
+      "book_page": "249",
+      "book_pdf_page": 268,
+      "topic": "Complete single-pass continuation comparison at the two long pretraining states.",
+      "book_labels": [
+        "model:fig:potential-continuations"
+      ],
+      "graphic_keys": [
+        "potential_continuations"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.6",
+      "book_page": "250",
+      "book_pdf_page": 269,
+      "topic": "Left: median native tensor increments divided by their incoming RMS, for every long-training branch.",
+      "book_labels": [
+        "model:fig:deductive-comparison"
+      ],
+      "graphic_keys": [
+        "deductive_comparison"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.7",
+      "book_page": "253",
+      "book_pdf_page": 272,
+      "topic": "All paired offset effects under retained and reset first moments on both disjoint source suffixes.",
+      "book_labels": [
+        "model:fig:potential-factorial"
+      ],
+      "graphic_keys": [
+        "factorial_source_replication"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.8",
+      "book_page": "255",
+      "book_pdf_page": 274,
+      "topic": "Controlled bounds for all eight partial-state predictive contrasts.",
+      "book_labels": [
+        "model:fig:finite-metric-intervals"
+      ],
+      "graphic_keys": [
+        "finite-metric-intervals"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "21.9",
+      "book_page": "258",
+      "book_pdf_page": 277,
+      "topic": "Complete final-state observations for the matched family.",
+      "book_labels": [
+        "model:fig:matched-onepass"
+      ],
+      "graphic_keys": [
+        "matched-onepass"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.1",
+      "book_page": "261",
+      "book_pdf_page": 280,
+      "topic": "Completed single-pass row profiles at 2,048 updates.",
+      "book_labels": [
+        "model:fig:critical-coarse-profile"
+      ],
+      "graphic_keys": [
+        "critical-coarse-publication-profiles"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.2",
+      "book_page": "262",
+      "book_pdf_page": 281,
+      "topic": "Complete common-centroid and head-mean operator observations at the 168 trained endpoints.",
+      "book_labels": [
+        "model:fig:critical-complete-fields"
+      ],
+      "graphic_keys": [
+        "critical-coarse-complete-fields"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.3",
+      "book_page": "263",
+      "book_pdf_page": 282,
+      "topic": "Finite conditional signed-operator observations.",
+      "book_labels": [
+        "model:fig:critical-coarse-sign-limit"
+      ],
+      "graphic_keys": [
+        "critical-coarse-sign-limit"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.4",
+      "book_page": "264",
+      "book_pdf_page": 283,
+      "topic": "Native creation of shared-state variation at the first adaptive update, reconstructed from the complete unit-control initialization family.",
+      "book_labels": [
+        "model:fig:critical-first-force"
+      ],
+      "graphic_keys": [
+        "critical-coarse-complete-first-force"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.5",
+      "book_page": "265",
+      "book_pdf_page": 284,
+      "topic": "Independent single-pass row profiles at 4,096 updates.",
+      "book_labels": [
+        "model:fig:critical-independent-profiles"
+      ],
+      "graphic_keys": [
+        "critical-refinement-publication-profiles"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.6",
+      "book_page": "266",
+      "book_pdf_page": 285,
+      "topic": "Predictions fixed before independent training.",
+      "book_labels": [
+        "model:fig:critical-independent-crossings"
+      ],
+      "graphic_keys": [
+        "critical-refinement-detail-crossings"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.7",
+      "book_page": "268",
+      "book_pdf_page": 287,
+      "topic": "Complete shared-parameter accumulation in the independent family.",
+      "book_labels": [
+        "model:fig:critical-independent-shared-paths"
+      ],
+      "graphic_keys": [
+        "critical-refinement-detail-shared-paths"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.8",
+      "book_page": "272",
+      "book_pdf_page": 291,
+      "topic": "Completed row dynamics under a matched physical clock.",
+      "book_labels": [
+        "model:fig:matched-clock"
+      ],
+      "graphic_keys": [
+        "matched-clock"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "22.9",
+      "book_page": "273",
+      "book_pdf_page": 292,
+      "topic": "External-target loss along the same matched-clock trajectories.",
+      "book_labels": [
+        "model:fig:matched-clock-nll"
+      ],
+      "graphic_keys": [
+        "matched-clock-nll"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "24.1",
+      "book_page": "287",
+      "book_pdf_page": 306,
+      "topic": "Finite predictive resolution.",
+      "book_labels": [
+        "model:fig:categorical-scales"
+      ],
+      "graphic_keys": [
+        "categorical-scales"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "24.2",
+      "book_page": "289",
+      "book_pdf_page": 308,
+      "topic": "Context variation on the fixed 128-document panel at 8,192 tokens.",
+      "book_labels": [
+        "model:fig:context-risk"
+      ],
+      "graphic_keys": [
+        "context-risk"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "24.3",
+      "book_page": "291",
+      "book_pdf_page": 310,
+      "topic": "Context-dependent predictive error and measured model-call savings.",
+      "book_labels": [
+        "model:fig:operator-cache"
+      ],
+      "graphic_keys": [
+        "operator-cache"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "24.4",
+      "book_page": "293",
+      "book_pdf_page": 312,
+      "topic": "Every calibration panel at length 64 (left), and all size-16 length-transfer arms (right).",
+      "book_labels": [
+        "model:fig:cache-risk"
+      ],
+      "graphic_keys": [
+        "cache-risk"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "24.5",
+      "book_page": "295",
+      "book_pdf_page": 314,
+      "topic": "State-specific recalibration (solid circles) and transport of the paired initial cache (dashed squares) at trained endpoints.",
+      "book_labels": [
+        "model:fig:cache-state-transfer"
+      ],
+      "graphic_keys": [
+        "cache-state-transfer"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "24.6",
+      "book_page": "298",
+      "book_pdf_page": 317,
+      "topic": "Predictive visibility in the independent single-pass family at T = 4096.",
+      "book_labels": [
+        "model:fig:categorical-visibility"
+      ],
+      "graphic_keys": [
+        "categorical-visibility"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "27.1",
+      "book_page": "330",
+      "book_pdf_page": 349,
+      "topic": "Frozen conditional risk-path centers and prediction tubes (solid curves and shading), with the fresh validation mean at each horizon (dashed curves and points).",
+      "book_labels": [
+        "model:fig:law-closure-risk"
+      ],
+      "graphic_keys": [
+        "law-closure-risk"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "27.2",
+      "book_page": "334",
+      "book_pdf_page": 353,
+      "topic": "All eight finite prediction strata.",
+      "book_labels": [
+        "model:fig:memory-validation"
+      ],
+      "graphic_keys": [
+        "memory-validation"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "27.3",
+      "book_page": "337",
+      "book_pdf_page": 356,
+      "topic": "Every four-interval score comparison.",
+      "book_labels": [
+        "model:fig:moment-scores"
+      ],
+      "graphic_keys": [
+        "moment-scores"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "27.4",
+      "book_page": "343",
+      "book_pdf_page": 362,
+      "topic": "Primary risk (left) and secondary joint risk/entropy (right) comparisons with the diagonal control.",
+      "book_labels": [
+        "model:fig:outer-scores"
+      ],
+      "graphic_keys": [
+        "outer-scores"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "27.5",
+      "book_page": "346",
+      "book_pdf_page": 365,
+      "topic": "Every state/fit outcome across adaptation budgets.",
+      "book_labels": [
+        "model:fig:refresh-budget"
+      ],
+      "graphic_keys": [
+        "refresh-budget"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "27.6",
+      "book_page": "352",
+      "book_pdf_page": 371,
+      "topic": "Finite-pulse path components at relative amplitude 1.5 \u00d7 10^(-5).",
+      "book_labels": [
+        "model:fig:directional-response"
+      ],
+      "graphic_keys": [
+        "directional-response"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "27.7",
+      "book_page": "355",
+      "book_pdf_page": 374,
+      "topic": "Response domain at the selected small radius.",
+      "book_labels": [
+        "model:fig:numerical-response-domain"
+      ],
+      "graphic_keys": [
+        "numerical-response-domain"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "28.1",
+      "book_page": "359",
+      "book_pdf_page": 378,
+      "topic": "Inference response emerges from moment-only interventions.",
+      "book_labels": [
+        "model:fig:optimizer-transport-visibility"
+      ],
+      "graphic_keys": [
+        "optimizer-transport-visibility"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "28.2",
+      "book_page": "366",
+      "book_pdf_page": 385,
+      "topic": "Source-conditioned fine-tuning and common-source return.",
+      "book_labels": [
+        "model:fig:finetuning-summary"
+      ],
+      "graphic_keys": [
+        "finetuning-summary"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "28.3",
+      "book_page": "373",
+      "book_pdf_page": 392,
+      "topic": "Finite observed transport through the residual row stacks and predictions under native operator interventions.",
+      "book_labels": [
+        "model:fig:inference-mechanism"
+      ],
+      "graphic_keys": [
+        "inference-operator-mechanism"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "28.4",
+      "book_page": "374",
+      "book_pdf_page": 393,
+      "topic": "Completed native premise-pair outcomes at every selected composition depth and demonstration count.",
+      "book_labels": [
+        "model:fig:prompt-conditioning"
+      ],
+      "graphic_keys": [
+        "prompt-conditioning"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.1",
+      "book_page": "437",
+      "book_pdf_page": 456,
+      "topic": "Document-block fluctuation flow.",
+      "book_labels": [
+        "model:fig:flow"
+      ],
+      "graphic_keys": [
+        "document-flow"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.2",
+      "book_page": "439",
+      "book_pdf_page": 458,
+      "topic": "Left: predictive response errors with the complete Fisher matrix (solid circles) and its diagonal approximation (dotted squares).",
+      "book_labels": [
+        "model:fig:response"
+      ],
+      "graphic_keys": [
+        "response-and-segments"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.3",
+      "book_page": "443",
+      "book_pdf_page": 462,
+      "topic": "Float64-parameter precision-control response scans at the twelve stored initialization states.",
+      "book_labels": [
+        "model:fig:precision-windows"
+      ],
+      "graphic_keys": [
+        "precision-windows"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.4",
+      "book_page": "444",
+      "book_pdf_page": 463,
+      "topic": "Normalized-family learning, operator dispersion and paired moment intervention.",
+      "book_labels": [
+        "model:fig:normalized-training"
+      ],
+      "graphic_keys": [
+        "normalized-training"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.5",
+      "book_page": "451",
+      "book_pdf_page": 470,
+      "topic": "Finite-width approach to the native initial-law predictions.",
+      "book_labels": [
+        "model:fig:criticality-initialization-limit"
+      ],
+      "graphic_keys": [
+        "criticality-initialization-limit"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.6",
+      "book_page": "456",
+      "book_pdf_page": 475,
+      "topic": "Completed shape-aware width and generator-rate scan.",
+      "book_labels": [
+        "model:fig:criticality-variance"
+      ],
+      "graphic_keys": [
+        "criticality-variance"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.7",
+      "book_page": "457",
+      "book_pdf_page": 476,
+      "topic": "Microscopic saturation and full predictive gain response in both finite initialization families.",
+      "book_labels": [
+        "model:fig:criticality-saturation"
+      ],
+      "graphic_keys": [
+        "criticality-attention"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.8",
+      "book_page": "459",
+      "book_pdf_page": 478,
+      "topic": "Finite source secants converge to the float64 full-graph JVP on the selected resolved contexts.",
+      "book_labels": [
+        "model:fig:criticality-gain-precision"
+      ],
+      "graphic_keys": [
+        "criticality-gain-precision"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.9",
+      "book_page": "460",
+      "book_pdf_page": 479,
+      "topic": "Horizon dependence at fixed generator rate and exogenous environment.",
+      "book_labels": [
+        "model:fig:criticality-horizon"
+      ],
+      "graphic_keys": [
+        "criticality-horizon"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.10",
+      "book_page": "461",
+      "book_pdf_page": 480,
+      "topic": "Signed-pulse response norms during matched continuation.",
+      "book_labels": [
+        "model:fig:criticality-restoration"
+      ],
+      "graphic_keys": [
+        "criticality-restoration"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.11",
+      "book_page": "463",
+      "book_pdf_page": 482,
+      "topic": "Completed finite comparison under extra fan-in scaling.",
+      "book_labels": [
+        "model:fig:criticality-fan-in"
+      ],
+      "graphic_keys": [
+        "criticality-fan-in"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.12",
+      "book_page": "466",
+      "book_pdf_page": 485,
+      "topic": "Row means and absolute susceptibility along the rate-grid trajectories.",
+      "book_labels": [
+        "model:fig:dynamics-rate-time"
+      ],
+      "graphic_keys": [
+        "dynamics-rate-time"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.13",
+      "book_page": "467",
+      "book_pdf_page": 486,
+      "topic": "The slower-rate width family at three matched horizons.",
+      "book_labels": [
+        "model:fig:dynamics-replication"
+      ],
+      "graphic_keys": [
+        "dynamics-replicated-width-time"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.14",
+      "book_page": "470",
+      "book_pdf_page": 489,
+      "topic": "Native finite component-return trajectories.",
+      "book_labels": [
+        "model:fig:dynamics-return"
+      ],
+      "graphic_keys": [
+        "dynamics-collective-return"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.15",
+      "book_page": "475",
+      "book_pdf_page": 494,
+      "topic": "Internal loss-adjoint gains across the eight metric units.",
+      "book_labels": [
+        "model:fig:dynamics-row-adjoint"
+      ],
+      "graphic_keys": [
+        "dynamics-row-adjoint"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.16",
+      "book_page": "480",
+      "book_pdf_page": 499,
+      "topic": "Paired whole-seed susceptibility changes with empirical percentile intervals, and mean row energy for the sixteen-seed and additional-twelve panels.",
+      "book_labels": [
+        "model:fig:observation-horizon"
+      ],
+      "graphic_keys": [
+        "observation-horizon"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.17",
+      "book_page": "482",
+      "book_pdf_page": 501,
+      "topic": "The thirteen complete arithmetic cells in table order.",
+      "book_labels": [
+        "model:fig:observation-arithmetic"
+      ],
+      "graphic_keys": [
+        "observation-arithmetic"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.18",
+      "book_page": "486",
+      "book_pdf_page": 505,
+      "topic": "Frozen clock predictions and measured g = 0.5 fields.",
+      "book_labels": [
+        "model:fig:scaling-clock-predictions"
+      ],
+      "graphic_keys": [
+        "scaling-clock-predictions"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.19",
+      "book_page": "488",
+      "book_pdf_page": 507,
+      "topic": "Matched four-initialization width dependence at three training horizons.",
+      "book_labels": [
+        "model:fig:scaling-collective-widths"
+      ],
+      "graphic_keys": [
+        "scaling-collective-widths"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.20",
+      "book_page": "490",
+      "book_pdf_page": 509,
+      "topic": "Frozen predictions and additional-identity observations at 16,384 updates.",
+      "book_labels": [
+        "model:fig:scaling-variance-predictions"
+      ],
+      "graphic_keys": [
+        "scaling-variance-predictions"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.21",
+      "book_page": "492",
+      "book_pdf_page": 511,
+      "topic": "Extended matched training horizons at N = 4, 14.",
+      "book_labels": [
+        "model:fig:scaling-long-horizons"
+      ],
+      "graphic_keys": [
+        "scaling-long-horizons"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.22",
+      "book_page": "495",
+      "book_pdf_page": 514,
+      "topic": "Frozen training-law and held-out risk across the matched long trajectories.",
+      "book_labels": [
+        "model:fig:scaling-training-risk"
+      ],
+      "graphic_keys": [
+        "scaling-training-risk"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.23",
+      "book_page": "497",
+      "book_pdf_page": 516,
+      "topic": "Directed conditional forcing, matched finite-sample predictive transport and the local-response window.",
+      "book_labels": [
+        "model:fig:scaling-noise-geometry"
+      ],
+      "graphic_keys": [
+        "scaling-noise-geometry"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.24",
+      "book_page": "498",
+      "book_pdf_page": 517,
+      "topic": "Fresh-batch validation of frozen adjoint source coordinates.",
+      "book_labels": [
+        "model:fig:scaling-visible-noise"
+      ],
+      "graphic_keys": [
+        "scaling-visible-noise"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.25",
+      "book_page": "502",
+      "book_pdf_page": 521,
+      "topic": "Predictive noise under paired source-state expansion.",
+      "book_labels": [
+        "model:fig:scaling-source-basis"
+      ],
+      "graphic_keys": [
+        "scaling-source-basis"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "32.26",
+      "book_page": "504",
+      "book_pdf_page": 523,
+      "topic": "Signed conditional source covariance of the actual native predictive increment.",
+      "book_labels": [
+        "model:fig:scaling-native-step"
+      ],
+      "graphic_keys": [
+        "scaling-native-step-covariance"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "33.1",
+      "book_page": "520",
+      "book_pdf_page": 539,
+      "topic": "Critical physical moments and native generated-law moments.",
+      "book_labels": [
+        "model:fig:physical-scaling"
+      ],
+      "graphic_keys": [
+        "physical-scaling"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "33.2",
+      "book_page": "521",
+      "book_pdf_page": 540,
+      "topic": "Fresh-chain magnetic-invariant prediction from common metric rows.",
+      "book_labels": [
+        "model:fig:physical-collectives"
+      ],
+      "graphic_keys": [
+        "physical-collectives"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "33.3",
+      "book_page": "526",
+      "book_pdf_page": 545,
+      "topic": "Released-base adaptation and physical inference.",
+      "book_labels": [
+        "model:fig:released-adaptation"
+      ],
+      "graphic_keys": [
+        "released-adaptation-summary"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "33.4",
+      "book_page": "528",
+      "book_pdf_page": 547,
+      "topic": "Relative vector error of the fixed common-row readout on the same source cohort, by model origin.",
+      "book_labels": [
+        "model:fig:new-readout"
+      ],
+      "graphic_keys": [
+        "readout-budget"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "33.5",
+      "book_page": "530",
+      "book_pdf_page": 549,
+      "topic": "Fresh-source relative vector error.",
+      "book_labels": [
+        "model:fig:fresh-readout"
+      ],
+      "graphic_keys": [
+        "fresh-readout"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "B.1",
+      "book_page": "562",
+      "book_pdf_page": 581,
+      "topic": "All coarse mean row trajectories on the declared 64-update observation cadence.",
+      "book_labels": [],
+      "graphic_keys": [
+        "critical-coarse-publication-time"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "B.2",
+      "book_page": "568",
+      "book_pdf_page": 587,
+      "topic": "Complete predictive-law fluctuations at the trained coarse endpoints.",
+      "book_labels": [],
+      "graphic_keys": [
+        "critical-coarse-complete-predictions"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "B.3",
+      "book_page": "569",
+      "book_pdf_page": 588,
+      "topic": "Complete independent mean-row trajectories on the recorded 64-update cadence, including every control and width.",
+      "book_labels": [],
+      "graphic_keys": [
+        "critical-refinement-publication-time"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "B.4",
+      "book_page": "570",
+      "book_pdf_page": 589,
+      "topic": "Independent complete common-centroid and head-mean operator observations.",
+      "book_labels": [
+        "model:fig:critical-independent-fields"
+      ],
+      "graphic_keys": [
+        "critical-refinement-complete-fields"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "B.5",
+      "book_page": "570",
+      "book_pdf_page": 589,
+      "topic": "Independent full-vocabulary predictive variation in the 2\u221ap embedding, with the same units at initialization and after training.",
+      "book_labels": [
+        "model:fig:critical-independent-predictions"
+      ],
+      "graphic_keys": [
+        "critical-refinement-complete-predictions"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "B.6",
+      "book_page": "571",
+      "book_pdf_page": 590,
+      "topic": "Complete shared-parameter block-correlation matrices at the registered reference g = 2.",
+      "book_labels": [
+        "model:fig:critical-independent-blocks"
+      ],
+      "graphic_keys": [
+        "critical-refinement-detail-block-covariance"
+      ],
+      "kind": "scientific observation"
+    },
+    {
+      "figure_number": "B.7",
+      "book_page": "572",
+      "book_pdf_page": 591,
+      "topic": "Independent conditional Gaussian comparisons and finite fourth-cumulant budgets.",
+      "book_labels": [
+        "model:fig:critical-independent-sign-limit"
+      ],
+      "graphic_keys": [
+        "critical-refinement-sign-limit"
+      ],
+      "kind": "scientific observation"
+    }
+  ]
+}

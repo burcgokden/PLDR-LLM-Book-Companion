@@ -123,7 +123,7 @@
       "coverage": "Exact-real nonnegativity of traces of powers of an entrywise-nonnegative matrix and trace(exp N) >= d.",
       "outside_coverage": "The equality-iff-acyclic converse, the complete walk interpretation and floating-point arithmetic remain outside these declarations.",
       "book_number": "3.4",
-      "source_sha256": "427adcc97402bad1ab99893fc2a1c9588a700cddc18f6fe75d6fdb2e8bf5033d"
+      "source_sha256": "3214cc4f7fd8eec43887391256a4cc41e59e7b2930cd47ebd0e6d51121889e5b"
     },
     {
       "book_label": "foundation:rem:dagobstruction",
@@ -135,7 +135,7 @@
       "coverage": "Exact-real trace lower bounds. Substituting N=M elementwise-squared with N_ii >= eps^2 gives h(M) >= d eps^2.",
       "outside_coverage": "Positive dimension and monotonicity of log for the normalized floor are written steps. Binary64 rounding, cancellation and implementation error are not formalized. A_P has no asserted A_LM architectural entry floor under arbitrary exponents.",
       "book_number": "3.5",
-      "source_sha256": "427adcc97402bad1ab99893fc2a1c9588a700cddc18f6fe75d6fdb2e8bf5033d"
+      "source_sha256": "3214cc4f7fd8eec43887391256a4cc41e59e7b2930cd47ebd0e6d51121889e5b"
     },
     {
       "book_label": "foundation:prop:rankone",
@@ -149,7 +149,7 @@
       ],
       "coverage": "Exact column action and zero/nonzero range of an identical-row finite real matrix; nonzero profile for the span equality, positive dimension for the iff.",
       "outside_coverage": "Training convergence, characteristic polynomial, spectral radius and singular-value perturbation bound.",
-      "source_sha256": "d61f866ac1474235e110c63b7dbdf8066d5e8b4c3bd7b835279527d125d43ae5"
+      "source_sha256": "a6ecd22c8a9adfed9f69778cb1a725bfd63f4a51b658660e7ba6c9dfcebcd046"
     },
     {
       "book_label": "foundation:prop:positivity",
@@ -5241,7 +5241,7 @@
         "model:prop:equivariant-cache"
       ],
       "module": "companions/dynamics/vendor/model/ModelRG/CacheRisk.lean",
-      "remaining_written_obligations": "Only the named kernels/clauses are checked. The manuscript correspondence table states the remaining analytic, probabilistic and empirical obligations.",
+      "remaining_written_obligations": "Native network and optimizer equivariance, decoder-error propagation, and categorical bounds (including the one-quarter Euclidean KL estimate) have standalone written arguments. The scalar cache-sign identity does not formalize these analytic clauses.",
       "source_sha256": "f5239d54f0f8ed24899ed93eb1b912c89d1ccbc9d48cdab8de9853970916d3ff",
       "status": "partial",
       "type_sha256": "f595d89462cdc68f84c346367dd27ff0f491f03b3b717417b8f081b415f0dde4",
@@ -6052,7 +6052,7 @@
       "book_label": "prop:row-predictive-bridge",
       "title": "Finite geometric-to-predictive error budget",
       "declarations": [],
-      "scope": "Complete Lipschitz recursion and categorical Hessian proof are written. No general KL Hessian theorem is supplied by softmax normalization or shift declarations.",
+      "scope": "The complete Lipschitz recursion and one-quarter Euclidean KL bound have standalone written Hessian and integral-remainder proofs under the stated propagation hypotheses. Softmax normalization and common-shift declarations do not establish these analytic clauses.",
       "book_number": "10.8"
     },
     {

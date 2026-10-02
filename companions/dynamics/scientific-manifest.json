@@ -29,7 +29,7 @@
     "lean-toolchain": "62c2d9c0fc1ec4c67e151c11eff41ca004ef38e179cf9476c230406e6defedef",
     "provenance/campaign-accounting.json": "df6a88026323247d96007b15e417f045f79791331b6c54b884c37b10841ff435",
     "provenance/export-disposition.json": "0ce25163fcdee0b80172597843aea58208ada1c45c7d5b0cdeb9aa4c0d4e2fbb",
-    "provenance/statement-manifest.json": "86a730ad9c6c40574a4e2a1fe62e62ce64d3113cce14f84a0c865a39aa798983",
+    "provenance/statement-manifest.json": "49bd598ba1ba19e57370b776d4eff1fcdb07c045b491af87a462eda0f9d2117b",
     "provenance/supported-programs.json": "8dc7f61ff895f2ddae6efc92e3e0a1c0ee0f30a9d851238ff20837af88b24c5b",
     "public_pytest.py": "b819dbde16434b359ad217c23759768f6a0f18d4cf947124290198eb8cd73200",
     "requirements-checks.txt": "e528805244c46a3794e87e6aff95e605da4c221d5ee706c6a0aa40a8cb89bee9",
@@ -1758,7 +1758,7 @@
     "vendor/row/scripts/summarize_q_devices.py": "97b6cfc037cf3cef709dff3a84b0b7267b2cf40f447a03a866218d547c903c00"
   },
   "identity": "content-addressed payload; Git commit identity is recorded externally",
-  "payload_sha256": "16e8cce8143243ff8b7af8b3539d4c89a7b97fb6f02a5e33579bda22f16fa81d",
+  "payload_sha256": "9f685ecc0229d3ce5b0aa17cd8f5200aae3e787a515233f736e20468cc384674",
   "release_commit": null,
   "schema": "pldr-scientific-files-v1"
 }

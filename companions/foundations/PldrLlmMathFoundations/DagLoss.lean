@@ -12,9 +12,9 @@ the `k = 0` term equal to `d`.  This file proves:
   entrywise nonnegative (closed-walk weights are nonnegative);
 * `trace_pow_nonneg`  : `tr (N^k) ≥ 0` (the geometric side of the
   walk-counting identity, Theorem 4.4 / Remark 4.6);
-* `trace_exp_ge_card` : `tr (exp N) ≥ d`; consequently
-  `tr e^{M⊙M} / dk ≥ 1`, so the absolute value in the implemented DAG
-  loss is analytically redundant;
+* `trace_exp_ge_card` : `tr (exp N) ≥ d`; applied to `N = M ⊙ M`
+  with `d > 0`, this gives `tr e^{M⊙M} / d ≥ 1`, so the absolute value
+  in the normalized logarithmic loss is analytically redundant;
 * `trace_exp_ge_card_add_trace` : the sharper bound
   `tr (exp N) ≥ d + tr N`;
 * `trace_exp_ge_of_diag_bound` : the positivity obstruction of the paper
@@ -69,9 +69,10 @@ attribute [local instance] Matrix.linftyOpNormedAddCommGroup
 
 /-- `tr (exp N) ≥ d` for entrywise-nonnegative `N`: each diagonal entry
 of `exp N` is at least its `k = 0` term `1`, because all closed-walk
-contributions are nonnegative.  Applied to `N = M ⊙ M` this shows
-`tr e^{M⊙M} / d ≥ 1`, making the absolute value in the implemented DAG
-loss redundant. -/
+contributions are nonnegative. Applied to `N = M ⊙ M` with `d > 0`,
+this shows `tr e^{M⊙M} / d ≥ 1`, making the absolute value in the
+normalized logarithmic loss redundant. The unnormalized theorem also
+holds at dimension zero. -/
 theorem trace_exp_ge_card (N : Matrix (Fin d) (Fin d) ℝ)
     (hN : ∀ i j, 0 ≤ N i j) :
     (d : ℝ) ≤ (exp N).trace := by

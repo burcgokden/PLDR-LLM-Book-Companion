@@ -1,0 +1,16 @@
+{
+  "schema": "pldr-upstream-audit-resolution-v1",
+  "repository": "https://github.com/burcgokden/PLDR-LLM-Math-Foundations",
+  "tested_commit": "ca399d0b0f8435dafef3caac2dcd9b92629a15a2",
+  "historical_failure": "provenance/public-audit-first-failure.json",
+  "retained_checks": {
+    "python_tests_passed": 135,
+    "records": {
+      "foundations-pytest.log": "4e7d2deb955d700f8c37ed2ed7d8166c7b6d395d5958dadb980df46364a5bbff",
+      "foundations-pytest.xml": "c2f1208150c89f855bbc664456013b10403dfc417703f533a03329a7adbfa971",
+      "foundations-reconstruction.json": "aa086a1de08724fdb5c24e5d40f87b4e76786b44380ae4d885f49242031e4e7f",
+      "foundations-lean.json": "491a319a14fca064ad5636b1551303a5d4900cd9f64ef2c4e33012cf730f4bd8"
+    }
+  },
+  "scope": "These retained executions belong to the tested commit. The historical failed execution remains unchanged; a subsequent passing execution does not relabel it. Comment-only maintenance is validated separately. The Book Companion remains the book code interface."
+}

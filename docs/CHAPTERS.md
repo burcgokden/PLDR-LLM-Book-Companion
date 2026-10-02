@@ -1,5 +1,11 @@
 # Guide by book content
 
+The [figure index](../provenance/book-figure-index.json) lists all 78 numbered
+figures in book order, with printed pages, PDF pages, scientific topics and
+stable book labels. Its source-PDF checksum identifies the pagination. The
+index links to the execution, evidence and formal-coverage guides below;
+repeated appearances of a graphic do not add experimental replications.
+
 | Book part | Included code | Evidence and interpretation |
 | --- | --- | --- |
 | I. Mathematical foundations and exact row dynamics | `companions/foundations/PldrLlmMathFoundations/`, `companions/foundations/audit/`, `companions/dynamics/vendor/row/` | Exact PLGA/SDPA identities, rotary geometry, LayerNorm, cache/causal contracts, row energy, finite work and complete optimizer state |

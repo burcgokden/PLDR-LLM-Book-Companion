@@ -171,7 +171,7 @@ theorem rowClone_mul_self (α : Fin d → ℝ) :
     smul_eq_mul]
   rw [← Finset.sum_mul]
 
-/-- `A^(k+1) = s^k A`: all powers stay on the ray of `A`. -/
+/-- `A^(k+1) = s^k A`: all powers stay in the real span of `A`. -/
 theorem rowClone_pow (α : Fin d → ℝ) (k : ℕ) :
     rowClone α ^ (k + 1) = (∑ j, α j) ^ k • rowClone α := by
   induction k with

@@ -31,7 +31,12 @@ records 124 passing tests and one failing exact-JSON comparison on the separate
 checkout. Its differences describe the first failing summary only; the stopped
 assertion is not an exhaustive comparison of later fields. The original failed
 log is bound by SHA-256, and the earlier full-field comparison history remains
-unchanged. This release does not rerun or repair that upstream package.
+unchanged. A subsequent separate public checkout at
+`ca399d0b0f8435dafef3caac2dcd9b92629a15a2` has a retained 135-test pass,
+summary reconstruction and Lean validation. The
+[resolution record](../provenance/upstream-audit-resolution.json) binds those
+executions to that commit. They resolve the numerical issue for that tested
+checkout while preserving the earlier failed execution.
 
 ## Cleanup fixture and validation scope
 
@@ -92,10 +97,12 @@ Declared package requirements describe dependencies; the observed runtime
 describes one execution. TorchScript and RoPE deprecation warnings remain
 recorded with their original native runs. No runtime API or dependency
 modernization is included in this documentation maintenance. The scientific
-programs, Lean declarations and retained inputs keep their source identities;
-the release validation records which checks were freshly executed and which
-historical experiments retain their original evidence.
+programs and retained inputs keep their bytes. Lean comment changes receive
+new source hashes while declaration types and proof bodies are checked for
+preservation. The release validation records which checks were freshly
+executed and which experiments retain their original evidence.
 
-Separate upstream numerical-audit maintenance remains open. The retained
-failure log, JUnit record and source/runtime bindings are not replaced by
-the Book Companion's supported comparison or by this release.
+The separate upstream numerical issue is resolved for the tested commit in
+the resolution record. Its passing results and the retained first-failure
+log have distinct source/runtime bindings. Neither is reassigned to the
+Book Companion or to a later prepared checkout.

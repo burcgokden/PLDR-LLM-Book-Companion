@@ -34,7 +34,7 @@
     {
       "path": "companions/dynamics/provenance/statement-manifest.json",
       "imported_sha256": "21186c8d3eab66f61b1b5e277a87795c7c6125193f73e470c818b224a4d1bfe3",
-      "current_sha256": "86a730ad9c6c40574a4e2a1fe62e62ce64d3113cce14f84a0c865a39aa798983",
+      "current_sha256": "49bd598ba1ba19e57370b776d4eff1fcdb07c045b491af87a462eda0f9d2117b",
       "status": "modified"
     },
     {
@@ -52,7 +52,7 @@
     {
       "path": "companions/dynamics/scientific-manifest.json",
       "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
-      "current_sha256": "98e3e66e2fef639cef012d505fc5787ed9828b9d443e051aa988196f4e5e3018",
+      "current_sha256": "1fbd3f6282e44f4c0bb5fc8ea28c74fbfe232be1e069e3881b4c44e2cdbb35dc",
       "status": "modified"
     },
     {
@@ -190,7 +190,7 @@
     {
       "path": "companions/foundations/PldrLlmMathFoundations/DagLoss.lean",
       "imported_sha256": "4b7929a43cd053e231bc498476fc9248ace2921dbe6e468d6fba741f1744da86",
-      "current_sha256": "427adcc97402bad1ab99893fc2a1c9588a700cddc18f6fe75d6fdb2e8bf5033d",
+      "current_sha256": "3214cc4f7fd8eec43887391256a4cc41e59e7b2930cd47ebd0e6d51121889e5b",
       "status": "modified"
     },
     {
@@ -214,7 +214,7 @@
     {
       "path": "companions/foundations/PldrLlmMathFoundations/RankOne.lean",
       "imported_sha256": "1987ed29eac1a9fbb3f99b5c31d6be33f2f1ca8352d18965ade9619fb90d5d32",
-      "current_sha256": "d61f866ac1474235e110c63b7dbdf8066d5e8b4c3bd7b835279527d125d43ae5",
+      "current_sha256": "a6ecd22c8a9adfed9f69778cb1a725bfd63f4a51b658660e7ba6c9dfcebcd046",
       "status": "modified"
     },
     {
