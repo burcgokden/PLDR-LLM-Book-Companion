@@ -34,7 +34,7 @@
     {
       "path": "companions/dynamics/docs/RESOURCE_EXECUTION.md",
       "imported_sha256": "68ed48a0b464307f7c0c18048d8e246dd2a1834ff360b525c1d01307317a3096",
-      "current_sha256": "e51a5eccc319cab0dfef49c73e7d483a11b09a4715952ee6335aefc748c5569d",
+      "current_sha256": "38f42c34e568b3da4003920c80c17d910de4e95bbe72958359f30c976cbf9f35",
       "status": "modified"
     },
     {
@@ -64,7 +64,7 @@
     {
       "path": "companions/dynamics/scientific-manifest.json",
       "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
-      "current_sha256": "29997d6ff931d24d95c4ec527cce7f1a68a7a73271f9417801245d027f80ecbc",
+      "current_sha256": "b25fcbf99019150c200d5fdcb01fbb29df11b67e64430d6e11d955e4e00db141",
       "status": "modified"
     },
     {
@@ -188,9 +188,21 @@
       "status": "removed"
     },
     {
+      "path": "companions/dynamics/vendor/row/experiments/confirm/resource_executor.py",
+      "imported_sha256": "70b8ad6dffe08ffe15a45a86dfef8b77195f948a6046090fe11274f5725e38a2",
+      "current_sha256": "fbb68f5b77bcdc90e9bdb31f006f773dd24e9bf44088079ed8dfac17b3dc0bb2",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/experiments/confirm/resource_worker.py",
+      "imported_sha256": "a64a449abe9b39ad89dad3f22d9bf7be29157d7140bc7841d66b5780a090b22b",
+      "current_sha256": "f346e4b258b9263ea9fe686c933a7887dea524da80c3e700e2292fb12fd02ec9",
+      "status": "modified"
+    },
+    {
       "path": "companions/dynamics/vendor/row/experiments/tests/test_resource_executor.py",
       "imported_sha256": "db9aa12c796d9ad6219300489f0f6d9d52ed25ec614b0e18ca9cbdb68194b282",
-      "current_sha256": "9001c91d24ad9a39858cec351241275da51f6bb5aa1eb39a1a78bf681e76f7c9",
+      "current_sha256": "27bdc6b93346e9382e91c6cf4f1199ab457e96f387d1708bdf9559c0bd70b591",
       "status": "modified"
     },
     {
