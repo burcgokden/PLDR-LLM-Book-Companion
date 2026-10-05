@@ -44,6 +44,12 @@
       "status": "modified"
     },
     {
+      "path": "companions/dynamics/provenance/export-disposition.json",
+      "imported_sha256": "0ce25163fcdee0b80172597843aea58208ada1c45c7d5b0cdeb9aa4c0d4e2fbb",
+      "current_sha256": "89bac48ea157e327d5c182c2ec0b9cb09d8d32272d9a95489f1a6954b826643b",
+      "status": "modified"
+    },
+    {
       "path": "companions/dynamics/provenance/statement-manifest.json",
       "imported_sha256": "21186c8d3eab66f61b1b5e277a87795c7c6125193f73e470c818b224a4d1bfe3",
       "current_sha256": "49bd598ba1ba19e57370b776d4eff1fcdb07c045b491af87a462eda0f9d2117b",
@@ -64,7 +70,7 @@
     {
       "path": "companions/dynamics/scientific-manifest.json",
       "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
-      "current_sha256": "b25fcbf99019150c200d5fdcb01fbb29df11b67e64430d6e11d955e4e00db141",
+      "current_sha256": "86559f37f37914c0076997af96dc81a89d6dd92ab2629311a42e8993b2565d9b",
       "status": "modified"
     },
     {
@@ -216,6 +222,138 @@
       "imported_sha256": "43110129f5be495025b0b4fc9c2e51dd532642fb9e62ccc2971b9c857c11c15c",
       "current_sha256": "84c41a0240d25c27604f41bc4c29db87becb64895e77cb475c9949e61fdcd8f2",
       "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev33.json",
+      "imported_sha256": "2ea4bfd79391620dcae50ca414a1cebadf242afa713fc948ef71411e9809727a",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev34.json",
+      "imported_sha256": "0929410464705a8900b838b7941fc5b9cbbcd5edda36e6edaea1d27051f486b6",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev35.json",
+      "imported_sha256": "5fe68cfdf305212326f0f5f7e55204a45d26ddd98b6fbe306c27a1046bd12773",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev36.json",
+      "imported_sha256": "d46b33d0e6d48d8997070c0be8de545d2914e92faa0c3eef6c33aa50ff5383e7",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev37.json",
+      "imported_sha256": "f752538dd836bfed5ed0a105c1b56ebc03b024b3e97d25d61d21f87e3fcbfd2b",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev38.json",
+      "imported_sha256": "3a1011f0178bc43384f8b7371c1e9a6179616a790257b6dab16b816dc12a506a",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev39.json",
+      "imported_sha256": "43e3811b2d70b3e34973f20cc5badce390e761b44ce028da2621cf37e4d0a02f",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev40.json",
+      "imported_sha256": "83aa3ca5675d194df382ddab630cc279a138e68a7da3a17acdc194540c902a39",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev41.json",
+      "imported_sha256": "d7add41dd4c5fa652c9606ea316d4f958941f376824106d0b29a374e610d98e1",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev42.json",
+      "imported_sha256": "35963d92ae5f6e71e0f5268543aa344e2081d28675740ed75d2ac92f6fc964f7",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev43.json",
+      "imported_sha256": "05a5587aec1f81b939b1371c7f6f7e56f627d781ef4e86bb44182cbfe3b96498",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev44.json",
+      "imported_sha256": "4af78533598fd896b2d6a8181f721f378c75e49f083703d95ce9666aeb299dbe",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev45.json",
+      "imported_sha256": "0298e2a68b8dddfa09bd8cdf6e36ee394ea13eba16db2f7fa63457a742983083",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev46.json",
+      "imported_sha256": "96526bb1a64bdf2f9bdb4e8891a0391533bf0761d9fd5abedc8110fed757481c",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev48.json",
+      "imported_sha256": "6b04f4562bb539bbcf572613212eee73a73c862e2717c94f8167e0cc7c00e330",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev49.json",
+      "imported_sha256": "8967fa1559fbe871ba82fcbcb89a701d724791c7a48661eaf2bc73681c8f1e06",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev50.json",
+      "imported_sha256": "5a327ad1163ed731ee927bf48048f141377b0702f0b9cc2ea89b55629077c018",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev51.json",
+      "imported_sha256": "11c68422192aa665a974d33b5be013df3eee94b1651cbfbc5086a2e344fc9237",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev52.json",
+      "imported_sha256": "d7c2dcca72a251b1dd3f3caff28bd2b3d1a8d1be9a5e1960f1a34bf1c8aabc2f",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev53.json",
+      "imported_sha256": "def5d51460969c940a50445c44fb108dca0fa7d5f268b6f4677c4737dc1bdf38",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev54.json",
+      "imported_sha256": "cbcf12ea9c69c57057edbc14ebe279862a7093ab6d9e1a1bdfb3b415d2a2d5d3",
+      "current_sha256": null,
+      "status": "removed"
+    },
+    {
+      "path": "companions/dynamics/vendor/row/scripts/formal_correspondence_rev55.json",
+      "imported_sha256": "096733668cb431efbf52576b761e0d02a8d30a655a523d4687e3566733bbef1b",
+      "current_sha256": null,
+      "status": "removed"
     },
     {
       "path": "companions/foundations/PldrLlmMathFoundations.lean",
