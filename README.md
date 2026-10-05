@@ -31,7 +31,14 @@ them. There are no manuscript PDFs, LaTeX sources or document build commands her
 
 ## Checks
 
+Use a fresh Python 3.14.6 virtual environment. The native-state tests require the
+registered `torch==2.12.1+cu132` build, including its CUDA 13.2 build metadata,
+even when executing on CPU. These checks do not require a GPU; CI disables GPU
+access with `CUDA_VISIBLE_DEVICES=""`. Install that build before the remaining
+dependencies:
+
 ```sh
+python3 -m pip install torch==2.12.1+cu132 --index-url https://download.pytorch.org/whl/cu132
 python3 -m pip install -r requirements-checks.txt
 python3 scripts/check.py integrity
 python3 scripts/check.py scientific

@@ -1,12 +1,12 @@
 {
   "files": {
-    ".github/workflows/release-validation.yml": "3456f432fe8e6653a99d53135731fdb019d45d13309fdc8b72537631ff6fc5ca",
+    ".github/workflows/release-validation.yml": "b322a0f08782573fdea956f02ba0ce15b1843bc8ac6937c58252ea1f7a41dc6f",
     ".gitignore": "7f6ea8e9b54072bd15084ddb34419ffb6b5ae1d2e97049806709d15b8d6eee89",
     "CITATION.cff": "291b57a05de79171bf93353bb503e502986c4b20697222a0fd2b6f64ecc90c03",
     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
     "NOTICE.md": "533591839190c49a3b0eca3fc7bc2e69e16cc5e54e03732804643568f0cb236b",
-    "README.md": "cd4ecbf71f444a5c93477eccc560ec1262a634cb003d557d4ac2b75d808e130a",
-    "RELEASE.md": "e7cfa4b62297de1f433505f395526a61e515ca6e512a781652475e81fa6ed2dc",
+    "README.md": "87903cc97c9979a5ff8f0c91d797bf1cfa988bea947d3a2bd646017a80c134c7",
+    "RELEASE.md": "33d4d51a97ebe65c91f531cc714426206aaca83ca0c414df1f8ea758a8b3206f",
     "companions/dynamics/.gitignore": "53ac78e44b91f7c400af43d59d001892e438964030195a0458d97d031f5c6a26",
     "companions/dynamics/CITATION.cff": "13c6c524857113a694109bf2eb5bff7636f8b1e7a4269f5420bc6882c304ddbe",
     "companions/dynamics/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
@@ -38,9 +38,9 @@
     "companions/dynamics/provenance/statement-manifest.json": "49bd598ba1ba19e57370b776d4eff1fcdb07c045b491af87a462eda0f9d2117b",
     "companions/dynamics/provenance/supported-programs.json": "8dc7f61ff895f2ddae6efc92e3e0a1c0ee0f30a9d851238ff20837af88b24c5b",
     "companions/dynamics/public_pytest.py": "b819dbde16434b359ad217c23759768f6a0f18d4cf947124290198eb8cd73200",
-    "companions/dynamics/requirements-checks.txt": "e528805244c46a3794e87e6aff95e605da4c221d5ee706c6a0aa40a8cb89bee9",
+    "companions/dynamics/requirements-checks.txt": "19d833643abb2ce80db323cf2c1f5e51827baf8d8c2accb4d83ea2b828e8d8e4",
     "companions/dynamics/requirements-publication.txt": "52cabf6f2913180325aa5970cfda342490fc76e74ffafbe959b8bd872ba5e354",
-    "companions/dynamics/scientific-manifest.json": "5724b3ca63962d21a540d104eed6aebdd2481f550cf5be36afb8779f43a0b301",
+    "companions/dynamics/scientific-manifest.json": "29997d6ff931d24d95c4ec527cce7f1a68a7a73271f9417801245d027f80ecbc",
     "companions/dynamics/scripts/check_cache_relocation.py": "077a726f606d471e7ac950419e222e3c8986fba229dd1efb8895b34c356a9e08",
     "companions/dynamics/scripts/check_campaign_budget.py": "a369be2422b51a4bf971b349420a3095eb055f7fc43e34bcbfc55044197bbd2b",
     "companions/dynamics/scripts/check_chart_example.py": "58a486317a485a284ee0690f309211714027a3e7cd28bbe95cf5773fc8930225",
@@ -1822,7 +1822,7 @@
     "lakefile.toml": "28c67b5b4af74c2e8eca0077e3cfc9633c46a2ae9acc98d4802b5c7b702493c2",
     "lean-toolchain": "62c2d9c0fc1ec4c67e151c11eff41ca004ef38e179cf9476c230406e6defedef",
     "provenance/audit-comparison-history.json": "678f0a13178ebecd0b30ce493c275184a699033ed2e95c30add22dc45d22c565",
-    "provenance/book-changes.json": "568fd044823eb5fc5e7cf41823b277a9e63c1867b8e932ef75f9c78f34f08829",
+    "provenance/book-changes.json": "e32aed6a2e4caa0de36b652c55991896a112388b538a5d2623a8c2036a61ad72",
     "provenance/book-correspondence.json": "35d03e66f098c7c0b42b32901a7e32c714a7ade04513dad6bd34af7dbe78e103",
     "provenance/book-figure-index.json": "202ae856d882f2d7ceefec28ba9f142b092da00bcfdfdbc8a034773881af60c1",
     "provenance/documented-commands.json": "6360537de2e81c344c24bd9dbf1b3f8094b1d4f886a5d882cd8cfae8976ecd6c",
@@ -1835,7 +1835,7 @@
     "provenance/upstream-audit-resolution.json": "c10484cf0003dc95b74d28e076f3ba39f6fc12a3f5f47fcfb6646cf0ca89bfcc",
     "provenance/upstream-baseline.json": "c1a7b878f6e309c2b74324a5a0fadedbf641faa31b28b730caf50215d98dadba",
     "release-gate.json": "84d5f3abc89060ff13d034f8d68621a73c69dde2aa6c2ddc8d0320e0207a2b54",
-    "requirements-checks.txt": "389d6eb36b7c30eae8550343894f2b0a8bd4b7006921c4958208e0fc4cc69753",
+    "requirements-checks.txt": "ab89397fac6ab76433423136a963966edc68fc9ffa9732aa90c5b8daa75eb707",
     "scripts/check.py": "35cc850b3beaf6c422d5c9b33daf42d1ca162731907e7b8786cf7e057e6844f4",
     "scripts/check_documented_commands.py": "86a0b52e1eefbd95c84e7d07a5de341ec8080bfe089d46537351ee57f58d0871",
     "scripts/check_lean.py": "bf347f21e82f82175db2f877956336a5735b9790a346c89674ae141218ccefb1",
@@ -1850,6 +1850,6 @@
     "tests/test_initializer_lineage.py": "366cc59c470c88088daf96bbaa5abf5a338a40891c63ba05c73fe1447bbaec82",
     "tests/test_release_gate.py": "cfa05665f9a9a16a7152ef013939aca04a1ad2cabdf32b883c5ad7435a0d2826"
   },
-  "payload_sha256": "fef2c52f15aeea2d44ba7c5a6c206aeb176cf9a6123a9b932abc61e595de7ea9",
+  "payload_sha256": "1332fd1b8d9bc77eda961c13523d94704796e1c63db246a37b56350bd1028aa6",
   "schema": "pldr-book-release-v1"
 }

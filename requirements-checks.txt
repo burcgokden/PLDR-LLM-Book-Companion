@@ -1,1 +1,4 @@
+# Native-state tests require this registered build even when executing on CPU.
+# Install it from https://download.pytorch.org/whl/cu132 before this file.
+torch==2.12.1+cu132
 -r companions/dynamics/requirements-checks.txt

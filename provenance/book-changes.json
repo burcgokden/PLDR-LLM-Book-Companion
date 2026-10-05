@@ -58,13 +58,13 @@
     {
       "path": "companions/dynamics/requirements-checks.txt",
       "imported_sha256": "19eec436485790855837788355b90c1f59df302c01865c448ecc40f98d401336",
-      "current_sha256": "e528805244c46a3794e87e6aff95e605da4c221d5ee706c6a0aa40a8cb89bee9",
+      "current_sha256": "19d833643abb2ce80db323cf2c1f5e51827baf8d8c2accb4d83ea2b828e8d8e4",
       "status": "modified"
     },
     {
       "path": "companions/dynamics/scientific-manifest.json",
       "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
-      "current_sha256": "5724b3ca63962d21a540d104eed6aebdd2481f550cf5be36afb8779f43a0b301",
+      "current_sha256": "29997d6ff931d24d95c4ec527cce7f1a68a7a73271f9417801245d027f80ecbc",
       "status": "modified"
     },
     {
