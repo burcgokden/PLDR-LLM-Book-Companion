@@ -15,9 +15,9 @@
     "PldrTrainingDynamics/ScalingBalance.lean": "a8b2aaad8dfb7505059a3904da3e6608ab651f8509d9eb06e172ee2a96011b2b",
     "PldrTrainingDynamics/StochasticTransport.lean": "a3a60197d76b88fea474cf2b7f2fe19765a2fd69519eadd1f030ab744c09444d",
     "PldrTrainingDynamics/TrajectoryChart.lean": "46f77c01a230e3290f6b7c7f2449765fd137c4b38d8c80fea57f176eb0c1939b",
-    "README.md": "cf538f058dbd5c3da0e5268160a3d41c96cd57859239818d57f3e2183b086d54",
+    "README.md": "fa1a8dcbe84088daf05e08abc52138ba091a8fd0d06c5a14a4c4d2e35302a848",
     "VALIDATION.json": "979549edec85864906b92912222f0232c3200b6590e9f6bb02115a9ee45627d7",
-    "VALIDATION.md": "7f6db0ff47fd120d353feb1ecf053fbd0ff29fe8ee9841d9142108e544502526",
+    "VALIDATION.md": "443ca0bf8ad81e02931acb8e40db95d1995ec8169fd331b945a12b9244780ee6",
     "companion_paths.py": "e0f591971fc8537a372afec333c69cf546c4e2ea2d10ffdec9c1e54332844bad",
     "conftest.py": "41d67ab2f14f15748ffdbe147e639e2cee8fcf73d37afbbec217197b1d990814",
     "docs/CHAPTERS.md": "ceeb377c4cbd2cde9fddddb1af0693ed29097260cf0d6cfa7a5fbdc0fb510efe",
@@ -43,7 +43,7 @@
     "scripts/check_published_pdf.py": "e91a9f5a224533343fb656104eaebf456a353fc6de9e562f590d084d5f23fefb",
     "scripts/check_resource_execution.py": "c3a0d1c8945bf83e453f2983dfa426c0a1e5dbe6d575fee30c129ab1dbb5127d",
     "scripts/check_scientific_standalone.py": "e841a91cf74f60dcb183c373b072fff740f0f35245126e5dccb12f77b2e22b53",
-    "scripts/evidence_store.py": "f0117c9a3f8e6944be453920172a865f62248fb5f8d35d4d0928d066261860c1",
+    "scripts/evidence_store.py": "0e7427bee7aab4f103ece1e054bb70abe678cc54f0ef3d355557998d0dd9a8bc",
     "scripts/read_evidence.py": "646aba2a6efba417040dc4b60a3bf0f4b572dfa5cbb94fda9b94e9553ba56e76",
     "scripts/run_scientific_checks.py": "ae9d3079913854597cc59e3627adf9c68feb050cfe5abefa7c7f3b3b616f07b7",
     "scripts/run_source.py": "034f2d7781a7652afdf0d4e4295c30df6a398f81cec7ab35ec799f23bbb28757",
@@ -52,7 +52,7 @@
     "tests/fixtures/cache-state-protocol.json": "74493915d749c24c2369b145a280397fb3bdcb806fa9e9926dc4e868db377da4",
     "tests/test_acquisition_paths.py": "1bc138d1d60877d43eb61d8d398b5534e3521bb81e08363ed1cd1a32b9f3b5a4",
     "tests/test_corrected_bounds.py": "ce15b7cb552977bd960f2e0022e39c9a022665b60a7fc040024fe98fc42d0693",
-    "tests/test_evidence_integrity.py": "9f1b2cde3bf3b7ee7837771e688a0fd0d28bef98daf04fa287d03919ce731ddf",
+    "tests/test_evidence_integrity.py": "1438ca989d1600a933ac57d4f75121873f53b8aa8955a62b95e29bd37187e5dc",
     "tests/test_interfaces.py": "7c9a8b6482c4da97e618356541b1d06c694854d7e788bc104a299583faa7934d",
     "tests/test_published_pdf.py": "c3ec5e43153effb985aa8bd04256de54be4b24d43575c6882de711f6eaad32e3",
     "vendor/model/ModelRG.lean": "b1931ba6edcc5cf57a5f7e042786384e0730ee61b912be0d34d3c7fa4cac3211",
@@ -1758,7 +1758,7 @@
     "vendor/row/scripts/summarize_q_devices.py": "97b6cfc037cf3cef709dff3a84b0b7267b2cf40f447a03a866218d547c903c00"
   },
   "identity": "content-addressed payload; Git commit identity is recorded externally",
-  "payload_sha256": "9f685ecc0229d3ce5b0aa17cd8f5200aae3e787a515233f736e20468cc384674",
+  "payload_sha256": "c7ca03701678f0304ad056f9cef1ae67ccc4e0e885422f5711b864f64f9494ec",
   "release_commit": null,
   "schema": "pldr-scientific-files-v1"
 }

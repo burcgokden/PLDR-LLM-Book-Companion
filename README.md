@@ -58,6 +58,11 @@ comparison and independent high-precision check are documented in [AUDIT.md](doc
 
 The numerical evidence dataset is available at
 <https://huggingface.co/datasets/fromthesky/pldr-llm-training-dynamics-data>.
+Use its [pinned HTTPS download recipe](https://huggingface.co/datasets/fromthesky/pldr-llm-training-dynamics-data#access)
+at revision `5b1f9a53ca8a8e4f3c208b3b7b2625b5dd0c2cfe` and verify `SHA256SUMS` before the commands below.
+Git LFS downloads about 52.4 MB of compressed objects; the evidence reader
+uses only the Python standard library. Keep caches, extracted records and
+validation outputs outside the dataset root.
 
 ```sh
 python3 scripts/check.py evidence --data-repo DATA-REPO
@@ -79,3 +84,20 @@ correspondence supplies book labels and current numbering.
 
 Apache-2.0 applies subject to the included license files and [NOTICE.md](NOTICE.md).
 Third-party terms and attribution remain with their respective assets.
+
+## Published book and citation
+
+[Power Law Graph Attention and PLDR-LLMs: Mathematical Foundations, Training Dynamics, and Predictive Inference](https://www.amazon.com/dp/B0HLS1N6C9), by Burc Gokden.
+The supplied Amazon listing identifies product **B0HLS1N6C9**. Use the purchased
+edition's imprint for format-specific ISBN and publication-date details.
+
+[CITATION.cff](CITATION.cff) separates the software metadata from its preferred
+book citation. When citing execution, also give the exact code commit, source
+payload hash and dataset identity. [Supported editions and releases](docs/SUPPORTED_RELEASE.md#edition-and-release-identities)
+preserve the Appendix C pin and distinguish later maintenance. The figure
+index identifies the exact source PDF for its page references.
+
+## Release validation
+
+[RELEASE.md](RELEASE.md) documents the CPU release gate, immutable inputs,
+execution records, separate Lean/GPU scopes and preparation of reviewed tags.

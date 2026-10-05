@@ -170,6 +170,45 @@
         "DATA-REPO"
       ],
       "safe_help": true
+    },
+    {
+      "id": "cpu-release-gate",
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "scripts/release_gate.py",
+        "--data-repo",
+        "DATA-REPO",
+        "--pdf",
+        "PUBLICATION.pdf"
+      ],
+      "entry_point_index": 1,
+      "documents": [
+        "RELEASE.md"
+      ],
+      "placeholders": [
+        "DATA-REPO",
+        "PUBLICATION.pdf"
+      ],
+      "safe_help": true
+    },
+    {
+      "id": "release-input-download",
+      "cwd": ".",
+      "argv": [
+        "python3",
+        "scripts/download_release_inputs.py",
+        "--destination",
+        "../pldr-release-inputs"
+      ],
+      "entry_point_index": 1,
+      "documents": [
+        "RELEASE.md"
+      ],
+      "placeholders": [
+        "../pldr-release-inputs"
+      ],
+      "safe_help": true
     }
   ]
 }

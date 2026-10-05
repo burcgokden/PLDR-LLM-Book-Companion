@@ -106,3 +106,29 @@ The separate upstream numerical issue is resolved for the tested commit in
 the resolution record. Its passing results and the retained first-failure
 log have distinct source/runtime bindings. Neither is reassigned to the
 Book Companion or to a later prepared checkout.
+
+## Edition and release identities
+
+The [published book](https://www.amazon.com/dp/B0HLS1N6C9) and its software
+have separate citation identities. Product B0HLS1N6C9 identifies the supplied
+retail listing; obtain format-specific ISBN, edition and publication date from
+the purchased volume's imprint. The following source binding was checked
+against the supplied book artifact. It does not assert identical pagination
+for every commercial format.
+
+| Identity | Immutable reference |
+| --- | --- |
+| Code printed in the supplied book's Appendix C | `4f2e85911bd9f16c59a0d9927d90c75c9817cd10` |
+| Appendix C code payload | `c23040682aad2a75af9fec4bd7897e659350dfe3cb14d3ed0dcbed2f8d6ee004` |
+| Dataset commit printed in Appendix C | `5b1f9a53ca8a8e4f3c208b3b7b2625b5dd0c2cfe` |
+| Dataset manifest file SHA-256 | `d639bc535224e03ae34e71e057f5309916e10e4a7d17b0275e5b146de8d4170a` |
+| Dataset payload SHA-256 | `45921d31a700bd29e77645f1e9b42f0ec87d39f0c0a9a5f44da130531fc73fcd` |
+| Later public code snapshot audited on 2026-10-05 | `775f964302a7275c59daa0279952d6ac9334962d` |
+| Source PDF behind the 78 figure page references | `4818769230927af63e9226c9f5410142d5c795fea95d07ff5eaa5080cd1ff30c` |
+
+Later source maintenance is authenticated by `provenance/current-release.json`
+and a newly generated execution record; it does not change the printed Appendix C
+pin. [RELEASE.md](../RELEASE.md) describes the release gate and commit binding.
+The older `provenance/evidence-source.json` retains an imported historical
+evidence identity; `release-gate.json` specifies the input used by the current
+release workflow. Neither metadata file relabels historical source-work results.

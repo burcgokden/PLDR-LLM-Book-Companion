@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the book below when referring to the published work.
+  For software use, also record the exact repository commit, current-release
+  payload SHA-256 and dataset revision; they are separate identities.
+type: software
+title: PLDR-LLM Book Companion
+authors:
+  - family-names: Gokden
+    given-names: Burc
+repository-code: "https://github.com/burcgokden/PLDR-LLM-Book-Companion"
+url: "https://github.com/burcgokden/PLDR-LLM-Book-Companion"
+license: Apache-2.0
+preferred-citation:
+  type: book
+  title: >-
+    Power Law Graph Attention and PLDR-LLMs: Mathematical Foundations,
+    Training Dynamics, and Predictive Inference
+  authors:
+    - family-names: Gokden
+      given-names: Burc
+  url: "https://www.amazon.com/dp/B0HLS1N6C9"

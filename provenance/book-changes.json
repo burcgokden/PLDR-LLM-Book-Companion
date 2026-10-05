@@ -8,6 +8,18 @@
       "status": "modified"
     },
     {
+      "path": "companions/dynamics/README.md",
+      "imported_sha256": "cf538f058dbd5c3da0e5268160a3d41c96cd57859239818d57f3e2183b086d54",
+      "current_sha256": "fa1a8dcbe84088daf05e08abc52138ba091a8fd0d06c5a14a4c4d2e35302a848",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/VALIDATION.md",
+      "imported_sha256": "7f6db0ff47fd120d353feb1ecf053fbd0ff29fe8ee9841d9142108e544502526",
+      "current_sha256": "443ca0bf8ad81e02931acb8e40db95d1995ec8169fd331b945a12b9244780ee6",
+      "status": "modified"
+    },
+    {
       "path": "companions/dynamics/docs/CHAPTERS.md",
       "imported_sha256": "eb98a771d723e4b13904c86f4b44e5236bcec8f8feb3eedfb507a0121bdf608e",
       "current_sha256": "ceeb377c4cbd2cde9fddddb1af0693ed29097260cf0d6cfa7a5fbdc0fb510efe",
@@ -52,13 +64,25 @@
     {
       "path": "companions/dynamics/scientific-manifest.json",
       "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
-      "current_sha256": "1fbd3f6282e44f4c0bb5fc8ea28c74fbfe232be1e069e3881b4c44e2cdbb35dc",
+      "current_sha256": "5724b3ca63962d21a540d104eed6aebdd2481f550cf5be36afb8779f43a0b301",
       "status": "modified"
     },
     {
       "path": "companions/dynamics/scripts/check_formal_manifest.py",
       "imported_sha256": "99c241616bc5f1c1f8173ab535ed8aeaac8937d348bfbaa9fad7874e56360c80",
       "current_sha256": "dda97f7040c1dff3951a286a8e01a82a74637756056566996a729e58771888e7",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/scripts/evidence_store.py",
+      "imported_sha256": "f0117c9a3f8e6944be453920172a865f62248fb5f8d35d4d0928d066261860c1",
+      "current_sha256": "0e7427bee7aab4f103ece1e054bb70abe678cc54f0ef3d355557998d0dd9a8bc",
+      "status": "modified"
+    },
+    {
+      "path": "companions/dynamics/tests/test_evidence_integrity.py",
+      "imported_sha256": "9f1b2cde3bf3b7ee7837771e688a0fd0d28bef98daf04fa287d03919ce731ddf",
+      "current_sha256": "1438ca989d1600a933ac57d4f75121873f53b8aa8955a62b95e29bd37187e5dc",
       "status": "modified"
     },
     {
