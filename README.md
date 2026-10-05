@@ -88,8 +88,9 @@ Third-party terms and attribution remain with their respective assets.
 ## Published book and citation
 
 [Power Law Graph Attention and PLDR-LLMs: Mathematical Foundations, Training Dynamics, and Predictive Inference](https://www.amazon.com/dp/B0HLS1N6C9), by Burc Gokden.
-The supplied Amazon listing identifies product **B0HLS1N6C9**. Use the purchased
-edition's imprint for format-specific ISBN and publication-date details.
+ISBN: **979-8998406515**. Published: **October 2, 2026**.
+Format and edition: **Print Replica**.
+The supplied Amazon listing identifies product **B0HLS1N6C9**.
 
 [CITATION.cff](CITATION.cff) separates the software metadata from its preferred
 book citation. When citing execution, also give the exact code commit, source

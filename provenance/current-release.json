@@ -2,10 +2,10 @@
   "files": {
     ".github/workflows/release-validation.yml": "3456f432fe8e6653a99d53135731fdb019d45d13309fdc8b72537631ff6fc5ca",
     ".gitignore": "7f6ea8e9b54072bd15084ddb34419ffb6b5ae1d2e97049806709d15b8d6eee89",
-    "CITATION.cff": "ec67be962e77b31b479e10a12b3c7ed512527fbf574ef013b92baafb22b90ba1",
+    "CITATION.cff": "291b57a05de79171bf93353bb503e502986c4b20697222a0fd2b6f64ecc90c03",
     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
     "NOTICE.md": "533591839190c49a3b0eca3fc7bc2e69e16cc5e54e03732804643568f0cb236b",
-    "README.md": "5b3990a74d1662cd622ffa5095321776ad2e55db797ba909b2c7c96810153611",
+    "README.md": "cd4ecbf71f444a5c93477eccc560ec1262a634cb003d557d4ac2b75d808e130a",
     "RELEASE.md": "e7cfa4b62297de1f433505f395526a61e515ca6e512a781652475e81fa6ed2dc",
     "companions/dynamics/.gitignore": "53ac78e44b91f7c400af43d59d001892e438964030195a0458d97d031f5c6a26",
     "companions/dynamics/CITATION.cff": "13c6c524857113a694109bf2eb5bff7636f8b1e7a4269f5420bc6882c304ddbe",
@@ -1817,7 +1817,7 @@
     "docs/EXECUTION.md": "545c98752a2567795ecc6145347344299c710884dfe37228b4cc9efa3a3ca190",
     "docs/FORMAL.md": "cd281a10943d766892569f24be581c4a67a44db25d2824fef9219824a86ab2c2",
     "docs/RESEARCH_INTEGRATION.md": "2e1f989db9215ee79bbac4480923436e7c4df11398096c813ce9c11e12e62bb9",
-    "docs/SUPPORTED_RELEASE.md": "97c7d204cc71088686a8474c07dda48d7571634079a3404d8677dbad14b6be61",
+    "docs/SUPPORTED_RELEASE.md": "adcd2184e7a07f8d3df948e5a3b3e9d24a627929edfc81197be3e720b4d9a566",
     "lake-manifest.json": "6523ef0002899db3c1323d9287636f56e47cf945a860231ebf04e29b2ae867a0",
     "lakefile.toml": "28c67b5b4af74c2e8eca0077e3cfc9633c46a2ae9acc98d4802b5c7b702493c2",
     "lean-toolchain": "62c2d9c0fc1ec4c67e151c11eff41ca004ef38e179cf9476c230406e6defedef",
@@ -1850,6 +1850,6 @@
     "tests/test_initializer_lineage.py": "366cc59c470c88088daf96bbaa5abf5a338a40891c63ba05c73fe1447bbaec82",
     "tests/test_release_gate.py": "cfa05665f9a9a16a7152ef013939aca04a1ad2cabdf32b883c5ad7435a0d2826"
   },
-  "payload_sha256": "332c9fb38175c1e9f96c1d9e28548d933ac3f1d9a20d7cd0c488c9143aa1e584",
+  "payload_sha256": "fef2c52f15aeea2d44ba7c5a6c206aeb176cf9a6123a9b932abc61e595de7ea9",
   "schema": "pldr-book-release-v1"
 }

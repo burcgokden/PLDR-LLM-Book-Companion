@@ -110,11 +110,11 @@ Book Companion or to a later prepared checkout.
 ## Edition and release identities
 
 The [published book](https://www.amazon.com/dp/B0HLS1N6C9) and its software
-have separate citation identities. Product B0HLS1N6C9 identifies the supplied
-retail listing; obtain format-specific ISBN, edition and publication date from
-the purchased volume's imprint. The following source binding was checked
-against the supplied book artifact. It does not assert identical pagination
-for every commercial format.
+have separate citation identities. The book's ISBN is **979-8998406515**,
+and its publication date is **October 2, 2026**. The format and edition are
+**Print Replica**. Product B0HLS1N6C9 identifies the supplied retail listing.
+The following source binding was checked against the supplied book artifact.
+It does not assert identical pagination for every commercial format.
 
 | Identity | Immutable reference |
 | --- | --- |
