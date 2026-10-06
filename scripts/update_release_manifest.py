@@ -1,34 +1,63 @@
 #!/usr/bin/env python3
-"""Record intentional source edits separately from the immutable import record.
+"""Record current source bytes separately from authenticated historical imports.
 
-Run only after reviewing changes. This records bytes; it does not run validation.
+This records complete current inventories; it does not run validation.
 """
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
-from verify_release import ROOT,MANIFEST,payload_paths
+from verify_release import ROOT, MANIFEST, payload_paths
 
-def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
-def main():
-    baseline=json.loads((ROOT/'provenance/upstream-baseline.json').read_text());changes=[]
-    for component,info in baseline['sources'].items():
-        for name,old in info['files'].items():
-            p=ROOT/info['destination']/name;new=digest(p) if p.is_file() else None
-            if old!=new:changes.append(dict(path=str(p.relative_to(ROOT)),imported_sha256=old,current_sha256=new,status='removed' if new is None else 'modified'))
-    (ROOT/'provenance/book-changes.json').write_text(json.dumps(dict(schema='pldr-book-changes-v1',changes=changes,scope='Intentional included-code edits; immutable import record retained.'),indent=2)+'\n')
-    d=ROOT/'companions/dynamics';m=json.loads((d/'scientific-manifest.json').read_text())
-    m['files']={n:digest(d/n) for n in m['files'] if (d/n).is_file()}
-    for p in (d/'PldrTrainingDynamics').glob('*.lean'):m['files'][str(p.relative_to(d))]=digest(p)
-    m['payload_sha256']=hashlib.sha256(json.dumps(m['files'],sort_keys=True,separators=(',',':')).encode()).hexdigest()
-    (d/'scientific-manifest.json').write_text(json.dumps(m,sort_keys=True,indent=2)+'\n')
-    # The nested manifest update itself is included in the book change record.
-    for c in changes:
-        if c['path']=='companions/dynamics/scientific-manifest.json':c['current_sha256']=digest(d/'scientific-manifest.json')
-    (ROOT/'provenance/book-changes.json').write_text(json.dumps(dict(schema='pldr-book-changes-v1',changes=changes,scope='Intentional included-code edits; immutable import record retained.'),indent=2)+'\n')
-    files={str(p.relative_to(ROOT)):digest(p) for p in payload_paths()}
-    payload=hashlib.sha256(json.dumps(files,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-    (ROOT/MANIFEST).write_text(json.dumps(dict(schema='pldr-book-release-v1',files=files,payload_sha256=payload),sort_keys=True,indent=2)+'\n')
-    print(json.dumps(dict(files=len(files),payload_sha256=payload)))
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
 
-if __name__=='__main__':main()
+
+def refresh(root=ROOT):
+    root = Path(root)
+    nested = root / 'companions/dynamics'
+    spec = importlib.util.spec_from_file_location('nested_scientific_manifest', nested / 'scripts/verify_scientific_manifest.py')
+    verifier = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(verifier)
+    path = nested / verifier.MANIFEST
+    manifest = json.loads(path.read_text())
+    manifest['files'] = verifier.payload_files(nested)
+    manifest['payload_sha256'] = verifier.canonical(manifest['files'])
+    path.write_text(json.dumps(manifest, sort_keys=True, indent=2) + '\n')
+    verifier.verify(nested)
+
+    baseline = json.loads((root / 'provenance/upstream-baseline.json').read_text())
+    changes = []
+    for info in baseline['sources'].values():
+        folder = root / info['destination']
+        for name, old in info['files'].items():
+            path = folder / name
+            current = digest(path) if path.is_file() else None
+            if old != current:
+                row = dict(imported_sha256=old, current_sha256=current,
+                           status='removed' if current is None else 'modified')
+                if current is None:
+                    row['removed_path_sha256'] = hashlib.sha256(path.relative_to(root).as_posix().encode()).hexdigest()
+                else:
+                    row['path'] = path.relative_to(root).as_posix()
+                changes.append(row)
+        # New names, including rename destinations, are explicit provenance entries.
+        for path in payload_paths(folder):
+            name = path.relative_to(folder).as_posix()
+            if name not in info['files']:
+                changes.append(dict(path=path.relative_to(root).as_posix(), imported_sha256=None,
+                                    current_sha256=digest(path), status='added'))
+    changes.sort(key=lambda item: item.get('path', item.get('removed_path_sha256', '')))
+    (root / 'provenance/book-changes.json').write_text(json.dumps(dict(
+        schema='pldr-book-changes-v2', changes=changes,
+        scope='Current public paths and removed-path digests compared with authenticated import lineage; original path spellings remain in the historical record.'), indent=2) + '\n')
+    files = {path.relative_to(root).as_posix(): digest(path) for path in payload_paths(root)}
+    payload = verifier.canonical(files)
+    (root / MANIFEST).write_text(json.dumps(dict(schema='pldr-book-release-v1', files=files,
+                                              payload_sha256=payload), sort_keys=True, indent=2) + '\n')
+    return dict(files=len(files), payload_sha256=payload)
+
+
+if __name__ == '__main__':
+    print(json.dumps(refresh()))

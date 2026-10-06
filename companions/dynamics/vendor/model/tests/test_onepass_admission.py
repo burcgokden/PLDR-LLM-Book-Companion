@@ -371,6 +371,6 @@ def test_variant_specific_contract_drift(tmp_path,case):
 def test_production_resolver_accepts_full_locations_and_declared_aliases(tmp_path,monkeypatch):
     assert native.resolve_input_path(str(tmp_path/'tokens.npy')) == tmp_path/'tokens.npy'
     monkeypatch.setenv('MODEL_RG_DATA_ROOT',str(tmp_path))
-    assert native.resolve_input_path('/pldr-data/model/tokens.npy') == tmp_path/'tokens.npy'
+    assert native.resolve_input_path('data:model/tokens.npy') == tmp_path/'tokens.npy'
     with pytest.raises(ValueError,match='absolute'):native.resolve_input_path('tokens.npy')
-    with pytest.raises(ValueError,match='Unmapped'):native.resolve_input_path('/pldr-unknown/tokens.npy')
+    with pytest.raises(ValueError,match='Unknown'):native.resolve_input_path('data:unknown/tokens.npy')

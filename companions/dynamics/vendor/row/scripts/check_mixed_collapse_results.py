@@ -45,7 +45,7 @@ from scripts.execute_mixed_collapse_plan import (  # noqa: E402
 
 
 DEFAULT_BUNDLE = (
-    ROOT.parent / "experiment-data" / "manuscript-revisions" / "rev47"
+    ROOT.parent / "experiment-data" / "campaigns" / "mixed-collapse"
     / "mixed-row-map-collapse-confirmation"
 )
 DEFAULT_TEX = ROOT / "docs" / "figures" / "mixed_collapse_confirmation_results.tex"

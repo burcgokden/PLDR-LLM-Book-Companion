@@ -66,8 +66,8 @@ comparison and independent high-precision check are documented in [AUDIT.md](doc
 The numerical evidence dataset is available at
 <https://huggingface.co/datasets/fromthesky/pldr-llm-training-dynamics-data>.
 Use its [pinned HTTPS download recipe](https://huggingface.co/datasets/fromthesky/pldr-llm-training-dynamics-data#access)
-at revision `5b1f9a53ca8a8e4f3c208b3b7b2625b5dd0c2cfe` and verify `SHA256SUMS` before the commands below.
-Git LFS downloads about 52.4 MB of compressed objects; the evidence reader
+at revision `f03c292a227e58a03d145d478103f587d98a8c8a` and verify `SHA256SUMS` before the commands below.
+Git LFS downloads about 53.7 MB of compressed objects; the evidence reader
 uses only the Python standard library. Keep caches, extracted records and
 validation outputs outside the dataset root.
 
@@ -109,3 +109,19 @@ index identifies the exact source PDF for its page references.
 
 [RELEASE.md](RELEASE.md) documents the CPU release gate, immutable inputs,
 execution records, separate Lean/GPU scopes and preparation of reviewed tags.
+
+
+## Public evidence references
+
+The dataset index provides the supported descriptive record identities.
+Normalized metadata uses `pldr-data:` identities for indexed public evidence,
+`pldr-code:` identities for shipped source files, and explicitly unavailable
+identities for raw inputs that are not distributed. Consult the dataset
+`public-references.json` catalogue for their meaning. These identifiers are
+not local filesystem paths. Original acquisition hashes are retained in
+`normalization.json`; derived records are not new acquisition authorizations.
+
+Historical source and data releases retain their original byte identities.
+Current normalized exports are documentation and analysis evidence. Reconstructing
+an original acquisition requires its exact raw inputs and the matching historical
+software release. Unsupported historical aliases are not silently resolved.

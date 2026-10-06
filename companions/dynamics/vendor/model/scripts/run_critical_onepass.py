@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Frozen single-pass native criticality family; preparation is the only design input."""
 from companion_paths import child_pythonpath, dispatch_worker, validate_worker_cli
-from companion_paths import legacy_path
+from companion_paths import configured_path
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
@@ -27,7 +27,7 @@ from model_rg.onepass_admission import (CONTRACT, CORE_SOURCES, input_locations,
 from model_rg.native_state_schema import registered_binding
 
 REPO = Path(__file__).resolve().parents[1]
-ROOT = Path(legacy_path('/pldr-data/model'))
+ROOT = Path(configured_path('data:model'))
 CORPUS = ROOT/'data/refinedweb-onepass-524288'
 PROBES = ROOT/'controlled-study-20260905/data/short'
 NATIVE = ROOT/'assets/PLDR-LLM-v51-SOC-110M-1'
@@ -138,8 +138,8 @@ def prepare(study, design_path):
 
 def resolve_input_path(name):
     """Resolve declared aliases or full caller locations, never basename matches."""
-    if name.startswith('/pldr-'):
-        return Path(legacy_path(name))
+    if name.startswith(('data:', 'code:', 'assets:', 'tools:')):
+        return Path(configured_path(name))
     path = Path(name).expanduser()
     if not path.is_absolute():
         raise ValueError('Input identities require a full absolute location')
