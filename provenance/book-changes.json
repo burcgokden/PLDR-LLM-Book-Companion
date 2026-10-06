@@ -50,12 +50,6 @@
       "path": "companions/dynamics/docs/RESOURCE_EXECUTION.md"
     },
     {
-      "imported_sha256": "3c3d659d02e04e89fa728eb8791db91a21e3b14c17b6f3aab004df3338a7161c",
-      "current_sha256": "1ac57c34e48ca34bf854bb48ebd46188ef4c3ab4622927e7b1d503378082adab",
-      "status": "modified",
-      "path": "companions/dynamics/lake-manifest.json"
-    },
-    {
       "path": "companions/dynamics/provenance/acquisition-identities.json",
       "imported_sha256": null,
       "current_sha256": "83a7b0e631797da28df3259b33d7b743b91d10ae7267147781d2c9f6da837404",
@@ -76,7 +70,7 @@
     {
       "path": "companions/dynamics/provenance/public-references.json",
       "imported_sha256": null,
-      "current_sha256": "b1647321ff6cafaba72e01bc3a453dbc3d990c6000bd3fc00264d798e3c8fa26",
+      "current_sha256": "944b7c029ac6fb09e48041c39e52d9a16c04726196a56f040386dc1550377b5b",
       "status": "added"
     },
     {
@@ -105,7 +99,7 @@
     },
     {
       "imported_sha256": "6048dfb41a6acdc90c0031e3a3b4603b4ddd6b5432576c1ff4a08d5f9cd3cc47",
-      "current_sha256": "6017b671eb8b1fe2efeb606512254bb52b0512dddddce18ced766283faf64fec",
+      "current_sha256": "039a56353738e34d6988be889cd9520da19f9544bddbaa3f15fb246bd9d6a9c9",
       "status": "modified",
       "path": "companions/dynamics/scientific-manifest.json"
     },
@@ -150,6 +144,12 @@
       "current_sha256": "1438ca989d1600a933ac57d4f75121873f53b8aa8955a62b95e29bd37187e5dc",
       "status": "modified",
       "path": "companions/dynamics/tests/test_evidence_integrity.py"
+    },
+    {
+      "path": "companions/dynamics/tests/test_lean_dependency_manifests.py",
+      "imported_sha256": null,
+      "current_sha256": "b4f962fb0641c64c2b54c002d2492328be962ef1f36a2e47fb0601395f84b436",
+      "status": "added"
     },
     {
       "path": "companions/dynamics/tests/test_published_pdf.py",
@@ -228,12 +228,6 @@
       "current_sha256": "25479f841665ad64478fbd30df95cd17117ea77257ac1fa45c082f963220d3c2",
       "status": "modified",
       "path": "companions/dynamics/vendor/model/docs/templates/released-pinned-assets.json"
-    },
-    {
-      "imported_sha256": "0afa04ab6617da044989a94a2ad0fb9eb33b0e1f69fdb07600dc953a9ee56dd5",
-      "current_sha256": "b6a07e6c3e9dbb7c91732e40cdffb74871827a8d4e0eb59310994f59aba6029b",
-      "status": "modified",
-      "path": "companions/dynamics/vendor/model/lake-manifest.json"
     },
     {
       "imported_sha256": "45ce9d1bfa64d6fd6073067083c8c43490cd21a766ed6abe1d0ff03f3dbdcda6",
@@ -1106,12 +1100,6 @@
       "path": "companions/dynamics/vendor/rg/configs/four-trajectory-confirmation.example.json"
     },
     {
-      "imported_sha256": "af571c3b5fc1936e6b507893e4dcecf688cbf8b898c34c09e06a59096f536583",
-      "current_sha256": "b361a36a482a641fd94f64f62d64646571c4b2cc02ef3aa69c59efadf64a93d9",
-      "status": "modified",
-      "path": "companions/dynamics/vendor/rg/lake-manifest.json"
-    },
-    {
       "imported_sha256": "85e29270cc8efe57f980ec6311224c0c048a895b0fc93afc92b0a6484987a936",
       "current_sha256": "28c27155428d6a4b71a312eadbad6367dfb1179c8c5a48adb577f13b9b48f835",
       "status": "modified",
@@ -1548,12 +1536,6 @@
       "current_sha256": "29c3b5192dd314939cd24b694d3f023046581d1f080149d85af0f6ffff35668c",
       "status": "modified",
       "path": "companions/dynamics/vendor/row/experiments/tests/test_theory_v3.py"
-    },
-    {
-      "imported_sha256": "d7e872a5d4556a35eefdfb9317dd4e403cca833cc940bc3c3f9878526a85ae90",
-      "current_sha256": "84cb627fef9e90e20dc7fc641d40e1d9e9119bf9b51e686cb812097390775c62",
-      "status": "modified",
-      "path": "companions/dynamics/vendor/row/lake-manifest.json"
     },
     {
       "imported_sha256": "f3f42009ecddb4ae5dc5f97c293b8033fbb06b670fef1e985dc8d1e4dfc3b07c",
